@@ -1,0 +1,774 @@
+.entrada-bolsas {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+  position: relative;
+  background-color: #f5f5f5;
+}
+
+.entrada-bolsas .nav-bar {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 20px 276px;
+  padding: 35px 80px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+  background-color: #000000;
+}
+
+.entrada-bolsas .dialogo {
+  position: relative;
+  width: 139px;
+}
+
+.entrada-bolsas .frame {
+  display: flex;
+  flex-wrap: wrap;
+  width: 279px;
+  align-items: center;
+  gap: 10px 10px;
+  padding: 10px;
+  position: relative;
+  border-radius: 20px;
+  border: 1px solid;
+  border-color: #5a5a5a;
+}
+
+.entrada-bolsas .img {
+  position: relative;
+  width: 24px;
+  height: 24px;
+}
+
+.entrada-bolsas .buscar {
+  position: relative;
+  flex: 1;
+  flex-grow: 1;
+  height: 17px;
+  background-color: transparent;
+  font-family: "Regesto Grotesk-Bold", Helvetica;
+  font-weight: 700;
+  color: #5a5a5a;
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: normal;
+  border: 0;
+  padding: 0;
+}
+
+.entrada-bolsas .buscar::placeholder {
+  color: #5a5a5a99;
+}
+
+.entrada-bolsas .frame-2 {
+  position: relative;
+  flex: 1;
+  min-width: 300px;
+  max-width: 300px;
+  flex-grow: 1;
+}
+
+.entrada-bolsas .div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 105px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+}
+
+.entrada-bolsas .frame-3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+}
+
+.entrada-bolsas .body {
+  display: flex;
+  flex-direction: column;
+  max-width: 1440px;
+  align-items: center;
+  gap: 40px;
+  padding: 0px 50px;
+  position: relative;
+  width: 100%;
+  flex: 0 0 auto;
+}
+
+.entrada-bolsas .frame-4 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 40px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+}
+
+.entrada-bolsas .frame-5 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+}
+
+.entrada-bolsas .text-wrapper {
+  position: relative;
+  align-self: stretch;
+  margin-top: -1.00px;
+  font-family: "Regesto Grotesk-Bold", Helvetica;
+  font-weight: 700;
+  color: #000000;
+  font-size: 50px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.entrada-bolsas .p {
+  position: relative;
+  align-self: stretch;
+  font-family: "Regesto Grotesk-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 18px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.entrada-bolsas .frame-6 {
+  display: flex;
+  flex-wrap: wrap;
+  min-width: 320px;
+  align-items: center;
+  justify-content: center;
+  gap: 28px 28px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+  border-radius: 10px;
+  background-image: url(https://c.animaapp.com/oI9TknaH/img/frame-22.svg);
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.entrada-bolsas .frame-7 {
+  display: flex;
+  flex-direction: column;
+  min-width: 280px;
+  align-items: flex-start;
+  gap: 42px;
+  padding: 20px;
+  position: relative;
+  flex: 1;
+  flex-grow: 1;
+  border-radius: 10px;
+}
+
+.entrada-bolsas .text-wrapper-2 {
+  position: relative;
+  align-self: stretch;
+  margin-top: -1.00px;
+  font-family: "Regesto Grotesk-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.entrada-bolsas .div-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 10px 8px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+}
+
+.entrada-bolsas .text-wrapper-3 {
+  position: relative;
+  flex: 1;
+  margin-top: -1.00px;
+  font-family: "Regesto Grotesk-Bold", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.entrada-bolsas .captura-de-pantalla {
+  position: relative;
+  flex: 1;
+  min-width: 300px;
+  flex-grow: 1;
+  min-height: 171.46px;
+  aspect-ratio: 1.75;
+}
+
+.entrada-bolsas .frame-8 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 20px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+}
+
+.entrada-bolsas .frame-9 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+}
+
+.entrada-bolsas .text-wrapper-4 {
+  position: relative;
+  align-self: stretch;
+  margin-top: -1.00px;
+  font-family: "Regesto Grotesk-Bold", Helvetica;
+  font-weight: 700;
+  color: #000000;
+  font-size: 50px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.entrada-bolsas .text-wrapper-5 {
+  position: relative;
+  align-self: stretch;
+  font-family: "Regesto Grotesk-Bold", Helvetica;
+  font-weight: 700;
+  color: #000000;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.entrada-bolsas .frame-10 {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 40px 40px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+}
+
+.entrada-bolsas .recurso {
+  position: relative;
+  width: 267px;
+  height: 267px;
+  aspect-ratio: 1;
+  object-fit: cover;
+}
+
+.entrada-bolsas .text-wrapper-6 {
+  position: relative;
+  flex: 1;
+  font-family: "Regesto Grotesk-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 14px;
+  letter-spacing: 0.14px;
+  line-height: normal;
+}
+
+.entrada-bolsas .text-wrapper-7 {
+  position: relative;
+  flex: 1;
+  font-family: "Regesto Grotesk-Bold", Helvetica;
+  font-weight: 700;
+  color: #000000;
+  font-size: 14px;
+  letter-spacing: 0.14px;
+  line-height: normal;
+}
+
+.entrada-bolsas .frame-11 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 60px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+}
+
+.entrada-bolsas .frame-12 {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 36px 36px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+}
+
+.entrada-bolsas .frame-13 {
+  display: flex;
+  flex-direction: column;
+  min-width: 340px;
+  align-items: flex-start;
+  gap: 30px;
+  position: relative;
+  flex: 1;
+  flex-grow: 1;
+}
+
+.entrada-bolsas .frame-14 {
+  display: flex;
+  flex-direction: column;
+  min-width: 340px;
+  align-items: flex-start;
+  gap: 20px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+}
+
+.entrada-bolsas .text-wrapper-8 {
+  position: relative;
+  align-self: stretch;
+  margin-top: -1.00px;
+  font-family: "Regesto Grotesk-Bold", Helvetica;
+  font-weight: 700;
+  color: #000000;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.entrada-bolsas .frame-15 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 10px 7px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+  background-color: #f5f5f5;
+  border-radius: 10px;
+}
+
+.entrada-bolsas .text-wrapper-9 {
+  position: relative;
+  flex: 1;
+  margin-top: -1.00px;
+  font-family: "Regesto Grotesk-Bold", Helvetica;
+  font-weight: 700;
+  color: #000000;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.entrada-bolsas .text-wrapper-10 {
+  position: relative;
+  align-self: stretch;
+  font-family: "Regesto Grotesk-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 14px;
+  letter-spacing: 0.14px;
+  line-height: normal;
+}
+
+.entrada-bolsas .frame-16 {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 20px 20px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+}
+
+.entrada-bolsas .text-wrapper-11 {
+  position: relative;
+  flex: 1;
+  margin-top: -1.00px;
+  font-family: "Regesto Grotesk-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 14px;
+  letter-spacing: 0.14px;
+  line-height: normal;
+}
+
+.entrada-bolsas .recurso-2 {
+  position: relative;
+  flex: 1;
+  min-width: 390px;
+  flex-grow: 1;
+  min-height: 242.74px;
+  aspect-ratio: 1.61;
+  object-fit: cover;
+}
+
+.entrada-bolsas .frame-17 {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 20px 20px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+}
+
+.entrada-bolsas .recurso-3 {
+  position: relative;
+  width: 267px;
+  height: 221.25px;
+  aspect-ratio: 1.21;
+  object-fit: cover;
+}
+
+.entrada-bolsas .frame-18 {
+  display: flex;
+  flex-wrap: wrap;
+  min-width: 340px;
+  align-items: center;
+  justify-content: center;
+  gap: 20px 20px;
+  position: relative;
+  flex: 1;
+  flex-grow: 1;
+}
+
+.entrada-bolsas .frame-19 {
+  display: flex;
+  min-width: 290px;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 10px;
+  position: relative;
+  flex: 1;
+  flex-grow: 1;
+  background-color: #f5f5f5;
+  border-radius: 10px;
+}
+
+.entrada-bolsas .frame-20 {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 131px 131px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+}
+
+.entrada-bolsas .frame-21 {
+  display: flex;
+  flex-direction: column;
+  min-width: 390px;
+  align-items: flex-start;
+  gap: 25px;
+  padding: 0px 20px;
+  position: relative;
+  flex: 1;
+  flex-grow: 1;
+}
+
+.entrada-bolsas .recurso-4 {
+  position: relative;
+  flex: 1;
+  min-width: 390px;
+  flex-grow: 1;
+  min-height: 322.7px;
+  aspect-ratio: 1.21;
+  object-fit: cover;
+}
+
+.entrada-bolsas .frame-22 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 80px;
+  padding: 0px 30px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+}
+
+.entrada-bolsas .boton {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 10px;
+  position: relative;
+  flex: 0 0 auto;
+  background-color: #000000;
+  border-radius: 10px;
+}
+
+.entrada-bolsas .leer-art-culo {
+  position: relative;
+  width: fit-content;
+  margin-top: -1.00px;
+  font-family: "Regesto Grotesk-Bold", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 15px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.entrada-bolsas .comando {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 40px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+}
+
+.entrada-bolsas .frame-23 {
+  display: inline-flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 10px;
+  padding: 10px;
+  position: relative;
+  flex: 0 0 auto;
+  transition: all 0.2s ease;
+}
+
+.entrada-bolsas .frame-23:hover {
+  transform: scale(1.1);
+}
+
+.entrada-bolsas .text-wrapper-12 {
+  position: relative;
+  width: fit-content;
+  font-family: "Regesto Grotesk-Regular", Helvetica;
+  font-weight: 400;
+  color: #96134b;
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.entrada-bolsas .frame-24 {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px;
+  position: relative;
+  flex: 0 0 auto;
+  transition: all 0.2s ease;
+}
+
+.entrada-bolsas .frame-24:hover {
+  transform: scale(1.1);
+}
+
+.entrada-bolsas .text-wrapper-13 {
+  position: relative;
+  width: fit-content;
+  font-family: "Regesto Grotesk-Regular", Helvetica;
+  font-weight: 400;
+  color: #96134b;
+  font-size: 14px;
+  text-align: right;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.entrada-bolsas .frame-25 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  padding: 80px 0px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+  border-radius: 20px;
+  background-image: url(https://c.animaapp.com/oI9TknaH/img/frame-46.svg);
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.entrada-bolsas .frame-26 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+}
+
+.entrada-bolsas .text-wrapper-14 {
+  position: relative;
+  align-self: stretch;
+  margin-top: -1.00px;
+  font-family: "Regesto Grotesk-Bold", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 45px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.entrada-bolsas .text-wrapper-15 {
+  position: relative;
+  align-self: stretch;
+  font-family: "Regesto Grotesk-Bold", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 20px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.entrada-bolsas .frame-27 {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 390px;
+  align-items: center;
+  justify-content: center;
+  gap: 10px 10px;
+  padding: 0px 20px;
+  position: relative;
+  width: 100%;
+  flex: 0 0 auto;
+}
+
+.entrada-bolsas .frame-28 {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 20px;
+  position: relative;
+  flex: 1;
+  flex-grow: 1;
+  background-color: #ffffff;
+  border-radius: 10px;
+  border: 1px solid;
+  border-color: #d9d9d9;
+}
+
+.entrada-bolsas .text-wrapper-16 {
+  position: relative;
+  width: fit-content;
+  margin-top: -1.00px;
+  font-family: "Regesto Grotesk-Bold", Helvetica;
+  font-weight: 700;
+  color: #5a5a5a;
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.entrada-bolsas .frame-29 {
+  display: flex;
+  width: 105px;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 20px;
+  position: relative;
+  background-color: #000000;
+  border-radius: 10px;
+}
+
+.entrada-bolsas .text-wrapper-17 {
+  position: relative;
+  width: fit-content;
+  margin-top: -1.00px;
+  font-family: "Regesto Grotesk-Bold", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.entrada-bolsas .footer {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px 0px;
+  padding: 40px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+  background-color: #ffffff;
+}
+
+.entrada-bolsas .recurso-5 {
+  position: relative;
+  max-width: 290px;
+  width: 290px;
+  max-height: 59.76px;
+  height: 59.76px;
+  aspect-ratio: 4.85;
+  object-fit: cover;
+}
+
+.entrada-bolsas .text-wrapper-18 {
+  position: relative;
+  width: fit-content;
+  font-family: "Regesto Grotesk-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: normal;
+}
