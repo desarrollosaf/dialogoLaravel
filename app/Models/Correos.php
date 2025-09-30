@@ -8,7 +8,7 @@ use Illuminate\Database\Eloquent\Model;
 class Correos extends Model
 {
     use HasFactory;
-    protected $table = 'correos';
+    protected $table = 'Correos';
 //    public $timestamps = false;
     protected $guarded = ["id"];
 }
