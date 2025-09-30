@@ -13,7 +13,7 @@
     <link href="{{asset("assets/rock/images/webclip.png")}}" rel="apple-touch-icon">
 </head>
 <body class="body">
-<header class="section-2"><img loading="lazy" src="{{asset("assets/rock/images/logo-dialogo-1.svg")}}" alt=""></header>
+<header class="section-2"><a href="/"><img loading="lazy" src="{{asset("assets/rock/images/logo-dialogo-1.svg")}}" alt=""></a></header>
 <section class="section-7">
     <div class="w-layout-blockcontainer container-6 w-container">
         <h1 class="heading-7"><strong class="bold-text-4">El rock ya tiene su día en el calendario mexiquense</strong></h1>

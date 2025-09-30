@@ -9,7 +9,7 @@
 <body>
 <div class="entrada-las-mujeres" data-model-id="286:336">
     <div class="nav-bar">
-        <div class="dialogo"><img class="logo-dialogo" src="{{asset('assets/mujeresp/img/logo-dialogo.svg')}}" /></div>
+        <div class="dialogo"><a href="/"><img class="logo-dialogo" src="{{asset('assets/ciudadanodigno/img/logo-dialogo.svg')}}" /></a></div>
 {{--        <div class="frame">--}}
 {{--            <div class="search"><img class="vector" src="{{asset('assets/mujeresp/img/vector.svg')}}" /></div>--}}
 {{--            <input class="buscar" placeholder="Buscar" />--}}

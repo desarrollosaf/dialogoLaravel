@@ -9,7 +9,7 @@
 <body>
 <div class="entrada-paquete" data-model-id="283:4057">
     <div class="nav-bar">
-        <img class="dialogo" src="https://c.animaapp.com/udhLWezT/img/dialogo.svg" />
+        <div class="dialogo"><a href="/"><img class="logo-dialogo" src="{{asset('assets/ciudadanodigno/img/logo-dialogo.svg')}}" /></a></div>
 {{--        <div class="frame">--}}
 {{--            <img class="img" src="https://c.animaapp.com/udhLWezT/img/search-1.svg" />--}}
 {{--            <input class="buscar" placeholder="Buscar" />--}}

@@ -9,7 +9,7 @@
 <body>
 <div class="entrada-tala" data-model-id="289:226">
     <div class="nav-bar">
-        <div class="dialogo"><img class="logo-dialogo" src="{{asset('assets/tala/img/logo-dialogo.svg')}}" /></div>
+        <div class="dialogo"><a href="/"><img class="logo-dialogo" src="{{asset('assets/ciudadanodigno/img/logo-dialogo.svg')}}" /></a></div>
 {{--        <div class="frame">--}}
 {{--            <div class="search"><img class="vector" src="{{asset('assets/tala/img/vector.svg')}}" /></div>--}}
 {{--            <input class="buscar" placeholder="Buscar" />--}}

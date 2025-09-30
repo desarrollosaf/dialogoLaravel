@@ -9,7 +9,7 @@
 <body>
 <div class="entrada-paridad-y-la" data-model-id="291:1386">
     <div class="nav-bar">
-        <div class="dialogo"><img class="logo-dialogo" src="{{asset('assets/paridad/img/logo-dialogo.svg')}}" /></div>
+        <div class="dialogo"><a href="/"><img class="logo-dialogo" src="{{asset('assets/ciudadanodigno/img/logo-dialogo.svg')}}" /></a></div>
 {{--        <div class="frame">--}}
 {{--            <div class="search"><img class="vector" src="img/vector.svg" /></div>--}}
 {{--            <input class="buscar" placeholder="Buscar" />--}}
