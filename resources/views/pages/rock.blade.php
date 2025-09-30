@@ -82,39 +82,39 @@
             a la marginalidad por las condiciones socioeconómicas desfavorables; también hay foros dedicados a la música de gothic rock, surf, garage rock y metal.</p>
         <p class="paragraph-11">Y sí, el rock en el Estado de México además de una expresión del arte a través de la música es una manifestación sociocultural.</p>
         <div class="w-layout-blockcontainer container-8 w-container">
-            <a href="#" class="button w-button">Descargar infografía</a>
+            <a href="" class="button w-button">Descargar infografía</a>
         </div>
         <div id="w-node-f6a13fb3-5978-1553-bcdb-15bc110486e6-c2e6559f" class="w-layout-layout quick-stack-3 wf-layout-layout">
             <div class="w-layout-cell cell-9"><img width="24" loading="lazy" alt="" src="{{asset('assets/rock/images/keyboard_arrow_left_24dp_96134B_FILL0_wght400_GRAD0_opsz24.svg')}}" class="image-9">
-                <a href="#" class="button-3">Anterior</a>
+                <a href="/plastico_edomex" class="button-3">Anterior</a>
             </div>
             <div class="w-layout-cell cell-10">
-                <a href="#" class="button-3">Siguiente</a><img loading="lazy" src="{{asset('assets/rock/images/keyboard_arrow_right_24dp_96134B_FILL0_wght400_GRAD0_opsz24.svg')}}" alt="" class="image-9">
+                <a href="/plastico_edomex" class="button-3">Siguiente</a><img loading="lazy" src="{{asset('assets/rock/images/keyboard_arrow_right_24dp_96134B_FILL0_wght400_GRAD0_opsz24.svg')}}" alt="" class="image-9">
             </div>
         </div>
     </div>
 </section>
-<audio id="audio-rock" src="{{ asset('assets/rock/audio/rock.mp3') }}" preload="auto"></audio>
+{{--<audio id="audio-rock" src="{{ asset('assets/rock/audio/rock.mp3') }}" preload="auto"></audio>--}}
 <footer class="section-5"><img sizes="(max-width: 580px) 100vw, 580px" srcset="{{asset('assets/rock/images/congreso-dialogo-p-500.png')}} 500w, {{asset('assets/rock/images/congreso-dialogo.png')}} 580w" alt="" src="{{asset('assets/rock/images/congreso-dialogo.png')}}" loading="lazy" class="image-3">
     <a href="#" class="link">Aviso de privacidad</a>
 </footer>
 <script src="https://d3e54v103j8qbb.cloudfront.net/js/jquery-3.5.1.min.dc5e7f18c8.js?site=68da99006f785e00c2e65585" type="text/javascript" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
 
 <script src="{{ asset('assets/rock/js/webflow.js') }}" type="text/javascript"></script>
-<script>
-    document.addEventListener("DOMContentLoaded", () => {
-        const audio = document.getElementById("audio-rock");
+{{--<script>--}}
+{{--    document.addEventListener("DOMContentLoaded", () => {--}}
+{{--        const audio = document.getElementById("audio-rock");--}}
 
-        function playAudio() {
-            audio.play().catch(err => console.log("Error de autoplay:", err));
-            document.removeEventListener("click", playAudio);
-            document.removeEventListener("touchstart", playAudio);
-        }
+{{--        function playAudio() {--}}
+{{--            audio.play().catch(err => console.log("Error de autoplay:", err));--}}
+{{--            document.removeEventListener("click", playAudio);--}}
+{{--            document.removeEventListener("touchstart", playAudio);--}}
+{{--        }--}}
 
-        // Detectar primer interacción del usuario
-        document.addEventListener("click", playAudio);
-        document.addEventListener("touchstart", playAudio);
-    });
-</script>
+{{--        // Detectar primer interacción del usuario--}}
+{{--        document.addEventListener("click", playAudio);--}}
+{{--        document.addEventListener("touchstart", playAudio);--}}
+{{--    });--}}
+{{--</script>--}}
 </body>
 </html>
