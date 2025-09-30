@@ -157,16 +157,16 @@
             </div>
         </div>
         <div class="frame-22">
-            <div class="boton"><div class="leer-art-culo">Descargar infografía</div></div>
+            <div class="boton"><a href="pdf/Plástico Edomex.pdf" target="_blank" class="leer-art-culo">Descargar infografía</a></div>
             <div class="comando">
-                <div class="frame-23">
+                <a href="/derecho_al_ciudadano_digno" class="frame-23">
                     <img class="img" src="https://c.animaapp.com/oI9TknaH/img/keyboard-arrow-right-24dp-828282-1.svg" />
                     <div class="text-wrapper-12">Anterior</div>
-                </div>
-                <div class="frame-24">
+                </a>
+                <a href="/rock_mexiquense" class="frame-24">
                     <div class="text-wrapper-13">Siguiente</div>
                     <img class="img" src="https://c.animaapp.com/oI9TknaH/img/keyboard-arrow-right-24dp-828282-2.svg" />
-                </div>
+                </a>
             </div>
             <div class="frame-25">
                 <div class="frame-26">
@@ -174,8 +174,18 @@
                     <p class="text-wrapper-15">No te pierdas de ninguno de nuestras entradas</p>
                 </div>
                 <div class="frame-27">
-                    <div class="frame-28"><div class="text-wrapper-16">Correo</div></div>
-                    <div class="frame-29"><div class="text-wrapper-17">Registrate</div></div>
+{{--                    <div class="frame-28"><div class="text-wrapper-16">Correo</div></div>--}}
+{{--                    <div class="frame-29"><div class="text-wrapper-17">Registrate</div></div>--}}
+                    <input
+                        id="correo-input"
+                        type="text"
+                        class="form-control frame-28 text-wrapper-16"
+                        placeholder="ejemplo@gmail.com" />
+
+                    <button type="button" id="btn-registrar" class="btn btn-primary frame-29 text-wrapper-17">
+                        Regístrate
+                    </button>
+                    @include('pages.formslader')
                 </div>
             </div>
         </div>

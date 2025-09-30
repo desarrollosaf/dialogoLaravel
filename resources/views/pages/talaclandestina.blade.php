@@ -229,16 +229,16 @@
     </div>
     <div class="frame-17">
         <div class="frame-18">
-            <div class="boton"><div class="leer-art-culo">Descargar infografía</div></div>
+            <div class="boton"><a href="pdf/Tala ilegal 24 abr.pdf" target="_blank" class="leer-art-culo">Descargar infografía</a></div>
             <div class="comando">
-                <div class="anterior">
+                <a href="/mujeres_presupuesto" class="anterior">
                     <img class="vector-2" src="{{asset('assets/tala/img/vector-1.svg')}}" />
                     <div class="text-wrapper-14">Anterior</div>
-                </div>
-                <div class="siguiente">
+                </a>
+                <a href="/maternidad_libre" class="siguiente">
                     <div class="text-wrapper-15">Siguiente</div>
                     <img class="vector-2" src="{{asset('assets/tala/img/vector-2.svg')}}" />
-                </div>
+                </a>
             </div>
             <div class="frame-19">
                 <div class="frame-20">
@@ -246,8 +246,18 @@
                     <p class="text-wrapper-17">No te pierdas de ninguno de nuestras entradas</p>
                 </div>
                 <div class="frame-21">
-                    <div class="frame-22"><div class="text-wrapper-18">Correo</div></div>
-                    <div class="frame-23"><div class="text-wrapper-19">Registrate</div></div>
+{{--                    <div class="frame-22"><div class="text-wrapper-18">Correo</div></div>--}}
+{{--                    <div class="frame-23"><div class="text-wrapper-19">Registrate</div></div>--}}
+                    <input
+                        id="correo-input"
+                        type="text"
+                        class="form-control frame-22 text-wrapper-18"
+                        placeholder="ejemplo@gmail.com" />
+
+                    <button type="button" id="btn-registrar" class="btn btn-primary frame-23 text-wrapper-19">
+                        Regístrate
+                    </button>
+                    @include('pages.formslader')
                 </div>
             </div>
         </div>
