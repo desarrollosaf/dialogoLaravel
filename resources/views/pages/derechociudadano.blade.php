@@ -3,14 +3,15 @@
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta charset="utf-8" />
+    <link  href="{{asset("assets/home/images/Favicon.png")}}" rel="shortcut icon" type="image/x-icon">
     <link rel="stylesheet" href="{{asset('assets/ciudadanodigno/globals.css')}}" />
     <link rel="stylesheet" href="{{asset('assets/ciudadanodigno/style.css')}}" />
 </head>
 <body>
 <div class="entrada-protege-una" data-model-id="289:717">
     <div class="nav-bar">
-        <div class="dialogo"><a href="/"><img class="logo-dialogo" src="{{asset('assets/ciudadanodigno/img/logo-dialogo.svg')}}" /></a></div>
-{{--        <div class="frame">--}}
+
+{{--       <div class="dialogo"><a href="/"><img class="logo-dialogo" src="{{asset('assets/ciudadanodigno/img/logo-dialogo.svg')}}" /></a></div> <div class="frame">--}}
 {{--            <div class="search"><img class="vector" src="img/vector.svg" /></div>--}}
 {{--            <input class="buscar" placeholder="Buscar" />--}}
 {{--        </div>--}}

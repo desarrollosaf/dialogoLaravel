@@ -3,6 +3,7 @@
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta charset="utf-8" />
+    <link  href="{{asset("assets/home/images/Favicon.png")}}" rel="shortcut icon" type="image/x-icon">
     <link rel="stylesheet" href="{{asset('assets/fiscal/globals.css')}}" />
     <link rel="stylesheet" href="{{asset('assets/fiscal/style.css')}}" />
 </head>

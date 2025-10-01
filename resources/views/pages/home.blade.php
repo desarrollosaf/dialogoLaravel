@@ -2,14 +2,14 @@
 <html data-wf-page="68d32caf5b7816fce0255d00" data-wf-site="68d32cae5b7816fce0255ced" lang="en">
 <head>
     <meta charset="utf-8">
-    <title>Dialogo Site</title>
+    <title>Dialogo</title>
     <meta content="width=device-width, initial-scale=1" name="viewport">
     <meta content="Webflow" name="generator">
     <link href="{{asset("assets/home/css/normalize.css")}}" rel="stylesheet" type="text/css">
     <link  href="{{asset("assets/home/css/webflow.css")}}"  rel="stylesheet" type="text/css">
     <link href="{{asset("assets/home/css/dialogo-site.webflow.css")}}"  rel="stylesheet" type="text/css">
     <script type="text/javascript">!function(o,c){var n=c.documentElement,t=" w-mod-";n.className+=t+"js",("ontouchstart"in o||o.DocumentTouch&&c instanceof DocumentTouch)&&(n.className+=t+"touch")}(window,document);</script>
-    <link  href="{{asset("assets/home/images/favicon.ico")}}" rel="shortcut icon" type="image/x-icon">
+    <link  href="{{asset("assets/home/images/Favicon.png")}}" rel="shortcut icon" type="image/x-icon">
     <link  href="{{asset("assets/home/images/webclip.png")}}" rel="apple-touch-icon">
     <script src="https://d3e54v103j8qbb.cloudfront.net/js/jquery-3.5.1.min.dc5e7f18c8.js?site=68d32cae5b7816fce0255ced" type="text/javascript" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
     <script href="{{asset("assets/home/js/webflow.js")}}" type="text/javascript"></script>

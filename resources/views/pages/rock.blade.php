@@ -2,14 +2,14 @@
 <html data-wf-page="68da99016f785e00c2e6559f" data-wf-site="68da99006f785e00c2e65585">
 <head>
     <meta charset="utf-8">
-    <title>dialogo_entradas</title>
+    <title>Rock mexiquense</title>
     <meta content="width=device-width, initial-scale=1" name="viewport">
     <meta content="Webflow" name="generator">
 {{--    <link href="{{asset("assets/rock/css/normalize.css")}}" rel="stylesheet" type="text/css">--}}
 {{--    <link href="{{asset("assets/rock/css/webflow.css")}}" rel="stylesheet" type="text/css">--}}
     <link href="{{asset("assets/rock/css/dialogo-entradas.webflow.css")}}" rel="stylesheet" type="text/css">
     <script type="text/javascript">!function(o,c){var n=c.documentElement,t=" w-mod-";n.className+=t+"js",("ontouchstart"in o||o.DocumentTouch&&c instanceof DocumentTouch)&&(n.className+=t+"touch")}(window,document);</script>
-    <link href="{{asset("assets/rock/images/favicon.ico")}}" rel="shortcut icon" type="image/x-icon">
+    <link  href="{{asset("assets/home/images/Favicon.png")}}" rel="shortcut icon" type="image/x-icon">
     <link href="{{asset("assets/rock/images/webclip.png")}}" rel="apple-touch-icon">
 </head>
 <body class="body">
@@ -27,7 +27,18 @@
         </div>
         <h3 class="heading-8"><strong class="bold-text-3">El Congreso mexiquense aprobó que el rock tenga su propio día en el calendario estatal - 11 de septiembre- y eso, sin duda merece un solo de guitarra.</strong></h3>
         <div class="w-layout-blockcontainer container-7 w-container">
-            <img data-w-id="f6a13fb3-5978-1553-bcdb-15bc110486ac" loading="lazy" alt="" src="https://cdn.prod.website-files.com/68d32cae5b7816fce0255ced/68d6d169fb9d7ca4ace1caff_billete-1-ok-1.png" class="image-4"></div>
+            <img data-w-id="f6a13fb3-5978-1553-bcdb-15bc110486ac" loading="lazy" alt="" src="https://cdn.prod.website-files.com/68d32cae5b7816fce0255ced/68d6d169fb9d7ca4ace1caff_billete-1-ok-1.png" class="image-4">
+        </div>
+        <div class="player" >
+            <button id="playBtn">Play</button>
+            <div class="dot" id="dot"></div>
+            <span class="time" id="time">0</span>
+            <input type="range" id="seek" min="0" value="0">
+        </div>
+
+        <audio id="audio" src="{{ asset('assets/rock/audio/rock.mp3') }}"></audio>
+
+
         <p class="paragraph-8"><strong class="bold-text-2">Fue la diputada María del Carmen de la Rosa Mendoza (morena) quien subió a tribuna para proponer el Día del Rock
                 Estatal, el cual justificó a través de una playlist poderosa, contundente y respaldada con argumentos culturales, históricos y sociales de cómo el rock ha
                 sido una vía de expresión para la juventud, una manifestación de resistencia ante los modelos musicales impuestos por el marketing, así como un símbolo de
@@ -101,20 +112,47 @@
 <script src="https://d3e54v103j8qbb.cloudfront.net/js/jquery-3.5.1.min.dc5e7f18c8.js?site=68da99006f785e00c2e65585" type="text/javascript" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
 
 <script src="{{ asset('assets/rock/js/webflow.js') }}" type="text/javascript"></script>
-{{--<script>--}}
-{{--    document.addEventListener("DOMContentLoaded", () => {--}}
-{{--        const audio = document.getElementById("audio-rock");--}}
+<script>
+    // document.addEventListener("DOMContentLoaded", () => {
+    //     const audio = document.getElementById("audio-rock");
+    //
+    //     function playAudio() {
+    //         audio.play().catch(err => console.log("Error de autoplay:", err));
+    //         document.removeEventListener("click", playAudio);
+    //         document.removeEventListener("touchstart", playAudio);
+    //     }
+    //
+    //     // Detectar primer interacción del usuario
+    //     document.addEventListener("click", playAudio);
+    //     document.addEventListener("touchstart", playAudio);
+    // });
+    const audio = document.getElementById("audio");
+    const playBtn = document.getElementById("playBtn");
+    const seek = document.getElementById("seek");
+    const time = document.getElementById("time");
+    const dot = document.getElementById("dot");
 
-{{--        function playAudio() {--}}
-{{--            audio.play().catch(err => console.log("Error de autoplay:", err));--}}
-{{--            document.removeEventListener("click", playAudio);--}}
-{{--            document.removeEventListener("touchstart", playAudio);--}}
-{{--        }--}}
+    playBtn.addEventListener("click", () => {
+        if (audio.paused) {
+            audio.play();
+            playBtn.textContent = "Pause";
+            dot.classList.add("playing");
+        } else {
+            audio.pause();
+            playBtn.textContent = "Play";
+            dot.classList.remove("playing");
+        }
+    });
 
-{{--        // Detectar primer interacción del usuario--}}
-{{--        document.addEventListener("click", playAudio);--}}
-{{--        document.addEventListener("touchstart", playAudio);--}}
-{{--    });--}}
-{{--</script>--}}
+    audio.addEventListener("timeupdate", () => {
+        seek.max = audio.duration;
+        seek.value = audio.currentTime;
+        time.textContent = Math.floor(audio.currentTime);
+    });
+
+    seek.addEventListener("input", () => {
+        audio.currentTime = seek.value;
+    });
+</script>
 </body>
 </html>
