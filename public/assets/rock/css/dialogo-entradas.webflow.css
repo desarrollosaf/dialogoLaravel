@@ -540,7 +540,7 @@ button {
     padding: .5rem 1rem;
     border: none;
     border-radius: 6px;
-    background: #007bff;
+    background: #913182;
     color: #fff;
     cursor: pointer;
     font-size: .9rem;
@@ -548,7 +548,7 @@ button {
 }
 
 button:hover {
-    background: #0056b3;
+    background: #913182;
 }
 
 .dot {
