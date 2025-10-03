@@ -75,7 +75,7 @@
                        class="button-2 w-button trimestre-btn {{ $trimestreSeleccionado == $t ? 'active' : '' }}"
                        data-anio="{{ $anioSeleccionado }}"
                        data-trimestre="{{ $t }}">
-                        {{ $t }}{{ $t == 1 ? 'er' : 'to' }} Trimestre
+                        {{ $t }}{{ $t == 1 ? 'er' : ($t == 2 ? 'do' : ($t == 3 ? 'er' : 'to')) }} Trimestre
                     </a>
                 @endfor
             </div>
