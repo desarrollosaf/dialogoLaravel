@@ -100,7 +100,7 @@
     <div class="div-space">
         <h1 class="titulos-blog-parlamento">¿CUÁLES SON LAS FUNCIONES DE LOS PARLAMENTOS?</h1>
         <p class="body-text-general"><strong class="body-text-general">Además de representar a la población, crear y actualizar las leyes, el parlamento, en el caso de México, tiene las funciones financiera o presupuestaria, la administrativa, la de control, la jurisdiccional, así como la de orientación o redirección política [4]. <br><br>Para Juan Carlos Cervantes Gómez, investigador del Centro de Estudios de Derecho e Investigaciones Parlamentarias de la Cámara de Diputados, además de las funciones antes señaladas, también debe contemplarse la deliberativa, desinformación, electoral y de gestoría [5].</strong></p>
-        <div class="div-block-18 div-space"><img src="{{ asset('assets/blogparlamento/images/Diseño-sin-título-2.gif') }}" loading="lazy" alt="" class="image-20"></div>
+{{--        <div class="div-block-18 div-space"><img src="{{ asset('assets/blogparlamento/images/Diseño-sin-título-2.gif') }}" loading="lazy" alt="" class="image-20"></div>--}}
         <div class="div-block-16 div-space">
             <h1 class="titulos-blog-parlamento">EL CONGRESO DEL ESTADO DE MÉXICO</h1>
             <p class="body-text-general">Entre los congresos de las entidades federativas, el del Estado de México destaca por el número de sus integrantes, pues al tratarse del estado más poblado, cuenta con el mayor número de personas legisladoras: 75.</p>
