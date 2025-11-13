@@ -27,6 +27,8 @@ Route::get('/derecho_al_ciudadano_digno', [\App\Http\Controllers\HomeController:
 Route::get('/plastico_edomex', [\App\Http\Controllers\HomeController::class, "plastico_edomex"]);
 Route::get('/patrimonio', [\App\Http\Controllers\HomeController::class, "patrimonio"]);
 Route::get('/paridad_inclusion', [\App\Http\Controllers\HomeController::class, "paridad_inclusion"]);
+Route::get('/blog_del_parlamento', [\App\Http\Controllers\HomeController::class, "blog_parlamento"]);
+
 
 Route::get('/articulos/{anio}/{trimestre}', [\App\Http\Controllers\HomeController::class, 'getArticulos']);
 Route::post('/guardar-correo', [\App\Http\Controllers\HomeController::class, 'guardarCorreo'])->name('guardar.correo');

@@ -25,24 +25,32 @@
     <div class="w-layout-blockcontainer container w-container">
         <h1 class="heading-3">Lo más reciente</h1>
         <div class="w-layout-blockcontainer container-2 w-container"></div>
-        <p class="paragraph-2">El rock ya tiene su día en el calendario mexiquense</p>
-        <p class="paragraph-3">19 de septiembre 2025</p>
-        <p>Fue la diputada María del Carmen de la Rosa Mendoza (morena) quien subió a tribuna para proponer el Día del Rock Estatal, el cual justificó a través de una playlist poderosa, contundente y respaldada con argumentos culturales, históricos y sociales de cómo el rock ha sido una vía de expresión para la juventud, una manifestación de resistencia ante los modelos musicales impuestos por el marketing, así como un símbolo de libertad artística y reivindicación cultural en el Estado de México, en el país y en el mundo.</p>
-        <a href="/rock_mexiquense" class="button w-button">Leer artículo</a>
+        <p class="paragraph-2">Blog del parlamento</p>
+        <p class="paragraph-3">13 de noviembre 2025</p>
+        <p>Las instituciones parlamentarias son fundamentales para la democracia representativa.
+            Es en los parlamentos donde se expresa y encausa la voluntad popular, se aprueban
+            las leyes que permiten la convivencia, se asignan los recursos públicos y se pide
+            a los gobiernos que rindan cuentas.<br><br>Para dimensionar su relevancia para la
+            vida pública, te compartimos los antecedentes históricos de esta institución, su
+            evolución a nivel nacional y estatal, además de sus principales funciones.</p>
+        <a href="/blog_del_parlamento" class="button w-button">Leer artículo</a>
     </div>
     <div class="w-layout-blockcontainer container-3 w-container">
         <div id="w-node-_0da84a1c-8983-00ee-95bc-36e639afa07e-e0255d00" class="w-layout-layout quick-stack wf-layout-layout">
-            <div class="w-layout-cell cell-3"><img src="{{asset("assets/plastico/img/imagen-entrada-1.png")}}" loading="lazy" width="451" alt="" class="image">
-                <h1 class="heading-6">Dicen adiós a bolsas de plástico en Edomex</h1>
+
+            <div class="w-layout-cell cell-3"><img src="https://cdn.prod.website-files.com/68d32cae5b7816fce0255ced/68d6d169fb9d7ca4ace1caff_billete-1-ok-1.png" loading="lazy" width="451" alt="" class="image">
+                <h1 class="heading-6">El rock ya tiene su día en el calendario mexiquense</h1>
+                <a href="/rock_mexiquense" class="button w-button">Leer artículo</a>
+            </div>
+
+            <div class="w-layout-cell cell-2"><img src="{{asset("assets/plastico/img/imagen-entrada-1.png")}}" loading="lazy" width="451" alt="" class="image">
+                <h1 class="heading-5">Dicen adiós a bolsas de plástico en Edomex</h1>
                 <a href="/plastico_edomex" class="button w-button">Leer artículo</a>
             </div>
-            <div class="w-layout-cell cell-2"><img src="{{asset("assets/ciudadanodigno/img/billete-1-ok-1.png")}}" loading="lazy" width="451" alt="" class="image">
-                <h1 class="heading-5">Impulsa LXII Legislatura derecho al ciudadano digno</h1>
+
+            <div class="w-layout-cell cell"><img src="{{asset("assets/ciudadanodigno/img/billete-1-ok-1.png")}}" loading="lazy" width="451" alt="" class="image">
+                <h1 class="heading-4">Impulsa LXII Legislatura derecho al ciudadano digno</h1>
                 <a href="/derecho_al_ciudadano_digno" class="button w-button">Leer artículo</a>
-            </div>
-            <div class="w-layout-cell cell"><img src="{{asset("assets/maternidad/img/billete-1-ok-1.png")}}" loading="lazy" width="451" alt="" class="image">
-                <h1 class="heading-4">Protege el Congreso Edomex una Maternidad libre</h1>
-                <a href="/maternidad_libre" class="button w-button">Leer artículo</a>
             </div>
         </div>
     </div>
