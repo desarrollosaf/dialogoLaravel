@@ -71,7 +71,7 @@
             alfeñiqueras que, con dedicación y creatividad, mantienen viva una de las expresiones culturales más representativas de Toluca y del Estado de México.</p>
         <div class="img-que-implica space-btwn">
             <img
-                src="{{ asset('images/Comiendo.png') }}"
+                src="{{ asset('assets/alfenique/images/Comiendo.png') }}"
                 loading="lazy"
                 data-w-id="0abcd72b-2097-85b0-ddc1-2f93206deb51"
                 sizes="(max-width: 1920px) 100vw, 1920px"
@@ -107,19 +107,24 @@
             </div>
         </div>
         <img
-            src="{{ asset('images/Ilustración_sin_título-1.png') }}"
+            src="{{ asset('assets/alfenique/images/Ilustración_sin_título-1.png') }}"
             loading="lazy"
             data-w-id="b6730435-177e-95c9-a3ab-2dfbd10bc1fa"
             sizes="(max-width: 2048px) 100vw, 2048px"
             alt=""
             srcset="
-        {{ asset('assets/alfenique/images/Ilustración_sin_título-1-p-500.png') }} 500w,
-        {{ asset('assets/alfenique/images/Ilustración_sin_título-1-p-800.png') }} 800w,
-        {{ asset('assets/alfenique/images/Ilustración_sin_título-1-p-1080.png') }} 1080w,
-        {{ asset('assets/alfenique/images/Ilustración_sin_título-1-p-1600.png') }} 1600w,
-        {{ asset('assets/alfenique/images/Ilustración_sin_título-1-p-2000.png') }} 2000w,
-        {{ asset('assets/alfenique/images/Ilustración_sin_título-1.png') }} 2048w" class="img-50">
-        <p class="texto-general">La atracción y el interés de la población por preservar la tradición ha generado que el Ayuntamiento
+        {{ asset('assets/alfenique/images/Ilustracion_sin_titulo-1-p-500.png') }} 500w,
+        {{ asset('assets/alfenique/images/Ilustracion_sin_titulo-1-p-800.png') }} 800w,
+        {{ asset('assets/alfenique/images/Ilustracion_sin_titulo-1-p-1080.png') }} 1080w,
+        {{ asset('assets/alfenique/images/Ilustracion_sin_titulo-1-p-1600.png') }} 1600w,
+        {{ asset('assets/alfenique/images/Ilustracion_sin_titulo-1-p-2000.png') }} 2000w,
+        {{ asset('assets/alfenique/images/Ilustracion_sin_titulo-1.png') }} 2048w
+    "
+            class="img-50"
+        />
+
+        <p class="texto-general">
+            La atracción y el interés de la población por preservar la tradición ha generado que el Ayuntamiento
             de Toluca la impulse mediante el Concurso Nacional de Dulce de Alfeñique, cuyas piezas ganadoras se exhiben en el Museo del
             Alfeñique, inaugurado en 2014, que ofrece experiencias interactivas, talleres y exposiciones permanentes y temporales vinculadas
             al dulce y la tradición del Día de Muertos.</p>
@@ -162,18 +167,18 @@
     <div class="div-space">
         <div class="w-layout-grid grid-2 flex-center">
             <img
-                src="{{ asset('images/Ilustración_sin_título.png') }}"
+                src="{{ asset('assets/alfenique/images/Ilustracion_sin_titulo.png') }}"
                 loading="lazy"
                 data-w-id="0ef8141b-aed4-80ad-ffbc-692194e1fd3a"
                 sizes="(max-width: 2048px) 100vw, 2048px"
                 alt=""
                 srcset="
-                {{ asset('assets/alfenique/images/Ilustración_sin_título-p-500.png') }} 500w,
-                {{ asset('assets/alfenique/images/Ilustración_sin_título-p-800.png') }} 800w,
-                {{ asset('assets/alfenique/images/Ilustración_sin_título-p-1080.png') }} 1080w,
-                {{ asset('assets/alfenique/images/Ilustración_sin_título-p-1600.png') }} 1600w,
-                {{ asset('assets/alfenique/images/Ilustración_sin_título-p-2000.png') }} 2000w,
-                {{ asset('assets/alfenique/images/Ilustración_sin_título.png') }} 2048w"class="img-smll">
+                {{ asset('assets/alfenique/images/Ilustracion_sin_titulo-p-500.png') }} 500w,
+                {{ asset('assets/alfenique/images/Ilustracion_sin_titulo-p-800.png') }} 800w,
+                {{ asset('assets/alfenique/images/Ilustracion_sin_titulo-p-1080.png') }} 1080w,
+                {{ asset('assets/alfenique/images/Ilustracion_sin_titulo-p-1600.png') }} 1600w,
+                {{ asset('assets/alfenique/images/Ilustracion_sin_titulo-p-2000.png') }} 2000w,
+                {{ asset('assets/alfenique/images/Ilustracion_sin_titulo.png') }} 2048w"class="img-smll">
             <img
                 src="{{ asset('images/Ilustración_sin_título-2.png') }}"
                 loading="lazy"
@@ -181,12 +186,12 @@
                 sizes="(max-width: 2048px) 100vw, 2048px"
                 alt=""
                 srcset="
-        {{ asset('assets/alfenique/images/Ilustración_sin_título-2-p-500.png') }} 500w,
-        {{ asset('assets/alfenique/images/Ilustración_sin_título-2-p-800.png') }} 800w,
-        {{ asset('assets/alfenique/images/Ilustración_sin_título-2-p-1080.png') }} 1080w,
-        {{ asset('assets/alfenique/images/Ilustración_sin_título-2-p-1600.png') }} 1600w,
-        {{ asset('assets/alfenique/images/Ilustración_sin_título-2-p-2000.png') }} 2000w,
-        {{ asset('assets/alfenique/images/Ilustración_sin_título-2.png') }} 2048w" class="img-smll">
+        {{ asset('assets/alfenique/images/Ilustracion_sin_titulo-2-p-500.png') }} 500w,
+        {{ asset('assets/alfenique/images/Ilustracion_sin_titulo-2-p-800.png') }} 800w,
+        {{ asset('assets/alfenique/images/Ilustracion_sin_titulo-2-p-1080.png') }} 1080w,
+        {{ asset('assets/alfenique/images/Ilustracion_sin_titulo-2-p-1600.png') }} 1600w,
+        {{ asset('assets/alfenique/images/Ilustracion_sin_titulo-2-p-2000.png') }} 2000w,
+        {{ asset('assets/alfenique/images/Ilustracion_sin_titulo-2.png') }} 2048w" class="img-smll">
 
             <img
                 src="{{ asset('images/Ataudes.png') }}"
