@@ -25,32 +25,31 @@
     <div class="w-layout-blockcontainer container w-container">
         <h1 class="heading-3">Lo más reciente</h1>
         <div class="w-layout-blockcontainer container-2 w-container"></div>
-        <p class="paragraph-2">Blog del parlamento</p>
-        <p class="paragraph-3">13 de noviembre 2025</p>
-        <p>Las instituciones parlamentarias son fundamentales para la democracia representativa.
-            Es en los parlamentos donde se expresa y encausa la voluntad popular, se aprueban
-            las leyes que permiten la convivencia, se asignan los recursos públicos y se pide
-            a los gobiernos que rindan cuentas.<br><br>Para dimensionar su relevancia para la
-            vida pública, te compartimos los antecedentes históricos de esta institución, su
-            evolución a nivel nacional y estatal, además de sus principales funciones.</p>
-        <a href="/blog_del_parlamento" class="button w-button">Leer artículo</a>
+        <p class="paragraph-2">El Congreso Mexiquense reconoce lo que el corazón ya sabía: el Alfeñique es ahora Patrimonio Cultural Inmaterial</p>
+        <p class="paragraph-3">25 de noviembre 2025</p>
+        <p class="subtitulo-alfe-ique">El pasado mes de octubre, la LXII Legislatura del Congreso mexiquense nos regaló una dulce noticia que sabe a fiesta
+            y tradición, pues declaró al dulce típico de Alfeñique de Toluca como Patrimonio Cultural Inmaterial del Estado de México. <br>
+            La iniciativa impulsada por el presidente municipal de Toluca, Ricardo Moreno Bastida, tiene el propósito
+            de preservar y enaltecer una de las tradiciones más dulces y queridas de la capital mexiquense: el Alfeñique.
+        </p>
+        <a href="/el_alfenique_patrimonio_cultural" class="button w-button">Leer artículo</a>
     </div>
     <div class="w-layout-blockcontainer container-3 w-container">
         <div id="w-node-_0da84a1c-8983-00ee-95bc-36e639afa07e-e0255d00" class="w-layout-layout quick-stack wf-layout-layout">
 
-            <div class="w-layout-cell cell-3"><img src="https://cdn.prod.website-files.com/68d32cae5b7816fce0255ced/68d6d169fb9d7ca4ace1caff_billete-1-ok-1.png" loading="lazy" width="451" alt="" class="image">
-                <h1 class="heading-6">El rock ya tiene su día en el calendario mexiquense</h1>
+            <div class="w-layout-cell cell-3"><img src="{{asset("assets/blogparlamento/images/parlamentos-1154-2025.jpeg")}}" loading="lazy" width="451" alt="" class="image">
+                <h1 class="heading-6">Blog del parlamento</h1>
+                <a href="/blog_del_parlamento" class="button w-button">Leer artículo</a>
+            </div>
+
+            <div class="w-layout-cell cell-2"><img src="https://cdn.prod.website-files.com/68d32cae5b7816fce0255ced/68d6d169fb9d7ca4ace1caff_billete-1-ok-1.png" loading="lazy" width="451" alt="" class="image">
+                <h1 class="heading-5">El rock ya tiene su día en el calendario mexiquense</h1>
                 <a href="/rock_mexiquense" class="button w-button">Leer artículo</a>
             </div>
 
-            <div class="w-layout-cell cell-2"><img src="{{asset("assets/plastico/img/imagen-entrada-1.png")}}" loading="lazy" width="451" alt="" class="image">
-                <h1 class="heading-5">Dicen adiós a bolsas de plástico en Edomex</h1>
+            <div class="w-layout-cell cell"><img src="{{asset("assets/plastico/img/imagen-entrada-1.png")}}" loading="lazy" width="451" alt="" class="image">
+                <h1 class="heading-4">Dicen adiós a bolsas de plástico en Edomex</h1>
                 <a href="/plastico_edomex" class="button w-button">Leer artículo</a>
-            </div>
-
-            <div class="w-layout-cell cell"><img src="{{asset("assets/ciudadanodigno/img/billete-1-ok-1.png")}}" loading="lazy" width="451" alt="" class="image">
-                <h1 class="heading-4">Impulsa LXII Legislatura derecho al ciudadano digno</h1>
-                <a href="/derecho_al_ciudadano_digno" class="button w-button">Leer artículo</a>
             </div>
         </div>
     </div>

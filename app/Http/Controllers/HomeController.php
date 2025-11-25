@@ -83,6 +83,10 @@ class HomeController extends Controller
     {
         return view("pages.blogparlamento");
     }
+    public function el_alfenique()
+    {
+        return view("pages.alfenique");
+    }
 
     public function getArticulos($anio, $trimestre)
     {
@@ -110,6 +114,9 @@ class HomeController extends Controller
                     [ "titulo" => "Dicen adiós a bolsas de plástico en Edomex", "img" => "plastico/img/imagen-entrada-1.png", "ruta" => "/plastico_edomex" ],
                     [ "titulo" => "El rock ya tiene su día en el calendario mexiquense", "img" => "https://cdn.prod.website-files.com/68d32cae5b7816fce0255ced/68d6d169fb9d7ca4ace1caff_billete-1-ok-1.png", "ruta" => "/rock_mexiquense" ],
                     [ "titulo" => "Blog del parlamento", "img" => "blogparlamento/images/parlamentos-1154-2025.jpeg", "ruta" => "/blog_del_parlamento" ],
+                ],
+                4 => [
+                    [ "titulo" => "El Congreso Mexiquense reconoce lo que el corazón ya sabía: el Alfeñique es ahora Patrimonio Cultural Inmaterial", "img" => "alfenique/images/alfeniqueportada.png", "ruta" => "/el_alfenique_patrimonio_cultural" ],
                 ],
             ]
         ];
