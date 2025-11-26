@@ -21,7 +21,9 @@
     <link href="{{asset('assets/blogparlamento/images/webclip.png')}}" rel="apple-touch-icon">
 </head>
 <body class="body-4">
-<header class="section-2"><img loading="lazy" src="{{asset('assets/blogparlamento/images/logo-dialogo-1.svg')}}" alt=""></header>
+<header class="section-2">
+    <div class="dialogo"><a href="/"><img class="logo-dialogo" src="{{asset('assets/ciudadanodigno/img/logo-dialogo.svg')}}" /></a></div>
+</header>
 <section class="max-width">
     <div class="div-block-14 div-space">
         <h1 class="titulos-blog-parlamento titulo-centrado">PARA ENTENDER LA IMPORTANCIA DE LOS PARLAMENTOS</h1>

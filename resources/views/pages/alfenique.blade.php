@@ -26,7 +26,7 @@
 </head>
 <body class="body-5">
 <header class="section-2">
-    <img loading="lazy" src="{{asset('assets/blogparlamento/images/logo-dialogo-1.svg')}}" alt="">
+    <div class="dialogo"><a href="/"><img class="logo-dialogo" src="{{asset('assets/ciudadanodigno/img/logo-dialogo.svg')}}" /></a></div>
 </header>
 <section class="section-10">
     <section>
@@ -60,8 +60,8 @@
     </section>
     <section class="space-btwn">
         <h1 class="titulo-alfe-ique">¿Qué implica la declaración del Alfeñique como Patrimonio Cultural Inmaterial en el Estado de México?</h1>
-        <div class="impacto-text">
-            <p class="texto-general">Implica que es de orden público e interés social el respeto, fomento, conservación, promoción y salvaguarda de
+        <div class="impacto-text" style="text-align: center !important;" >
+            <p class="texto-general" style="text-align: center !important;">Implica que es de orden público e interés social el respeto, fomento, conservación, promoción y salvaguarda de
                 la técnica artesanal tradicional para la elaboración del alfeñique en todas sus variedades, así como la utilizada para la fabricación
                 de confituras elaboradas con azúcar cocida y moldeada, frutas cristalizadas y galletas tradicionales elaboradas en el marco de la Feria
                 del Alfeñique de Toluca.</p>
