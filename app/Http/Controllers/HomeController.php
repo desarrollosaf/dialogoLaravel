@@ -88,6 +88,11 @@ class HomeController extends Controller
         return view("pages.alfenique");
     }
 
+    public function pinatas()
+    {
+        return view("pages.pinatas");
+    }
+
     public function getArticulos($anio, $trimestre)
     {
 //        dd($anio, $trimestre);

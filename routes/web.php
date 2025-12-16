@@ -29,6 +29,7 @@ Route::get('/patrimonio', [\App\Http\Controllers\HomeController::class, "patrimo
 Route::get('/paridad_inclusion', [\App\Http\Controllers\HomeController::class, "paridad_inclusion"]);
 Route::get('/blog_del_parlamento', [\App\Http\Controllers\HomeController::class, "blog_parlamento"]);
 Route::get('/el_alfenique_patrimonio_cultural', [\App\Http\Controllers\HomeController::class, "el_alfenique"]);
+Route::get('/pinatas', [\App\Http\Controllers\HomeController::class, "pinatas"]);
 
 
 Route::get('/articulos/{anio}/{trimestre}', [\App\Http\Controllers\HomeController::class, 'getArticulos']);
