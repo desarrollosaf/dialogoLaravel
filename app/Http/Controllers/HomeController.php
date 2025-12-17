@@ -122,6 +122,7 @@ class HomeController extends Controller
                 ],
                 4 => [
                     [ "titulo" => "El Congreso Mexiquense reconoce lo que el corazón ya sabía: el Alfeñique es ahora Patrimonio Cultural Inmaterial", "img" => "alfenique/images/alfeniqueportada.png", "ruta" => "/el_alfenique_patrimonio_cultural" ],
+                    [ "titulo" => "Declaran a piñatas de Acolman como Patrimonio Cultural Inmaterial del Estado de México", "img" => "pinatas/images/Ilustracion-Pinatas.jpeg", "ruta" => "/declaran-a-pinatas-de-acolman-como-patrimonio-cultural-inmaterial-del-estado-de-mexico" ],
                 ],
             ]
         ];
