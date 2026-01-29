@@ -9,7 +9,7 @@ class HomeController extends Controller
 {
     public function index(Request $request)
     {
-        $anioSeleccionado = $request->get('anio', 2025); // valor por default
+        $anioSeleccionado = $request->get('anio', 2026); // valor por default
         $trimestreSeleccionado = $request->get('trimestre', 1);
 
         $articulos = [
@@ -34,6 +34,12 @@ class HomeController extends Controller
                     [ "titulo" => "Dicen adiós a bolsas de plástico en Edomex", "img" => "plastico/img/imagen-entrada-1.png", "ruta" => "/plastico_edomex" ],
                     [ "titulo" => "El rock ya tiene su día en el calendario mexiquense", "img" => "https://cdn.prod.website-files.com/68d32cae5b7816fce0255ced/68d6d169fb9d7ca4ace1caff_billete-1-ok-1.png", "ruta" => "/rock_mexiquense" ],
                     [ "titulo" => "Blog del parlamento", "img" => "blogparlamento/images/parlamentos-1154-2025.jpeg", "ruta" => "/blog_del_parlamento" ],
+                ],
+            ],
+            2026 => [
+                1 => [
+                    [ "titulo" => "Congreso del Estado de México, tu Congreso de resultados", "img" => "congreso/images/congresoPortada.jpeg", "ruta" => "/congreso" ],
+
                 ],
             ]
         ];
@@ -93,6 +99,11 @@ class HomeController extends Controller
         return view("pages.pinatas");
     }
 
+    public function congreso(){
+        return view('pages.congreso');
+    }
+
+
     public function getArticulos($anio, $trimestre)
     {
 //        dd($anio, $trimestre);
@@ -124,8 +135,14 @@ class HomeController extends Controller
                     [ "titulo" => "El Congreso Mexiquense reconoce lo que el corazón ya sabía: el Alfeñique es ahora Patrimonio Cultural Inmaterial", "img" => "alfenique/images/alfeniqueportada.png", "ruta" => "/el_alfenique_patrimonio_cultural" ],
                     [ "titulo" => "Declaran a piñatas de Acolman como Patrimonio Cultural Inmaterial del Estado de México", "img" => "pinatas/images/Ilustracion-Pinatas.jpeg", "ruta" => "/declaran-a-pinatas-de-acolman-como-patrimonio-cultural-inmaterial-del-estado-de-mexico" ],
                 ],
-            ]
+            ],
+            2026 => [
+                1 => [
+                    [ "titulo" => "Congreso del Estado de México, tu Congreso de resultados", "img" => "congreso/images/congresoPortada.jpeg", "ruta" => "/tu-congreso-de-resultados" ],
+                ],
+            ],
         ];
+
         return response()->json($articulos[$anio][$trimestre] ?? []);
     }
 

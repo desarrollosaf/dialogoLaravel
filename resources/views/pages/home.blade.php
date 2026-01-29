@@ -26,20 +26,14 @@
         <h1 class="heading-3">Lo más reciente</h1>
         <div class="w-layout-blockcontainer container-2 w-container"></div>
         <p class="paragraph-2">
-            Declaran a piñatas de Acolman como Patrimonio Cultural Inmaterial del Estado de México
-{{--            El Congreso Mexiquense reconoce lo que el corazón ya sabía: el Alfeñique es ahora Patrimonio Cultural Inmaterial--}}
+            Congreso del Estado de México, tu Congreso de resultados
         </p>
-        <p class="paragraph-3">25 de noviembre 2025</p>
+        <p class="paragraph-3">29 de enero 2026</p>
         <p class="subtitulo-alfe-ique">
-{{--            El pasado mes de octubre, la LXII Legislatura del Congreso mexiquense nos regaló una dulce noticia que sabe a fiesta--}}
-{{--            y tradición, pues declaró al dulce típico de Alfeñique de Toluca como Patrimonio Cultural Inmaterial del Estado de México. <br>--}}
-{{--            La iniciativa impulsada por el presidente municipal de Toluca, Ricardo Moreno Bastida, tiene el propósito--}}
-{{--            de preservar y enaltecer una de las tradiciones más dulces y queridas de la capital mexiquense: el Alfeñique.--}}
-            Artesanales, coloridas y creativas, las tradicionales piñatas elaboradas en el municipio mexiquense de Acolman fueron reconocidas por la LXII
-            Legislatura del Congreso del Estado de México al declararlas, por unanimidad de votos, como Patrimonio Cultural Inmaterial de la entidad.
-
+            Con la representación de siete fuerzas políticas, las, le y los 75 diputados de la LXII Legislatura del Congreso del Estado de México han aprobado por unanimidad
+            de votos el 95% de leyes y decretos presentados ante el Pleno, abordando temas de beneficio a la ciudadanía y, en defensa y apoyo de los grupos vulnerables.
         </p>
-        <a href="/declaran-a-pinatas-de-acolman-como-patrimonio-cultural-inmaterial-del-estado-de-mexico" class="button w-button">Leer artículo</a>
+        <a href="/tu-congreso-de-resultados" class="button w-button">Leer artículo</a>
     </div>
     <div class="w-layout-blockcontainer container-3 w-container">
         <div id="w-node-_0da84a1c-8983-00ee-95bc-36e639afa07e-e0255d00" class="w-layout-layout quick-stack wf-layout-layout">
