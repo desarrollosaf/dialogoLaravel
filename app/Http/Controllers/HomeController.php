@@ -103,6 +103,10 @@ class HomeController extends Controller
         return view('pages.congreso');
     }
 
+    public function organo(){
+        return view('pages.organo');
+    }
+
 
     public function getArticulos($anio, $trimestre)
     {
