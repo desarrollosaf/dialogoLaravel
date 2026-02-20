@@ -31,6 +31,7 @@ Route::get('/blog_del_parlamento', [\App\Http\Controllers\HomeController::class,
 Route::get('/el_alfenique_patrimonio_cultural', [\App\Http\Controllers\HomeController::class, "el_alfenique"]);
 Route::get('/declaran-a-pinatas-de-acolman-como-patrimonio-cultural-inmaterial-del-estado-de-mexico', [\App\Http\Controllers\HomeController::class, "pinatas"]);
 Route::get('/tu-congreso-de-resultados', [\App\Http\Controllers\HomeController::class, "congreso"]);
+Route::get('/grupos-organos-dependencias', [\App\Http\Controllers\HomeController::class, "organo"]);
 
 
 Route::get('/articulos/{anio}/{trimestre}', [\App\Http\Controllers\HomeController::class, 'getArticulos']);

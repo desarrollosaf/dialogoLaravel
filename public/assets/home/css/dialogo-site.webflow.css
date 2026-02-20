@@ -185,8 +185,8 @@
   max-width: 100%;
 }
 .container-2 {
-  background-image: url('/assets/congreso/images/portada.jpg');
-  background-position: 50% 0;
+  background-image: url('/assets/organo/images/portada.jpg');
+  background-position: 0;
   background-size: cover;
   border-radius: 20px;
   width: 100%;
