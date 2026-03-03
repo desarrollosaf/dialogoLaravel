@@ -99,7 +99,7 @@
         </div>
         <div class="div-section">
             <h2 class="titulo-h2">LA JUNTA DE COORDINACIÓN POLÍTICA</h2>
-            <p class="paragraph">Integrada por los coordinadores de los grupos parlamentarios, la Junta de Coordinación Políticaes el órgano de concertación del Congreso mexiquense, es decir el espacio donde se alcanzan los acuerdos y se coordinan las tareas legislativas, políticas y administrativas de la Legislatura.</p>
+            <p class="paragraph">Integrada por los coordinadores de los grupos parlamentarios, la Junta de Coordinación Política es el órgano de concertación del Congreso mexiquense, es decir el espacio donde se alcanzan los acuerdos y se coordinan las tareas legislativas, políticas y administrativas de la Legislatura.</p>
             <div class="columns-18 w-row">
                 <div class="column-22 w-col w-col-4">
                     <div class="presidente-card-jucopo">
@@ -171,13 +171,13 @@
                     </div>
                     <div class="miembro-card-jucopo"><img loading="lazy" src="{{ asset('assets/organo/images/PVEM-Miriam-Silva-Mata.png') }}" alt="" class="img-jucopo bg-pvedm">
                         <div class="cuerpo-info-jucopo">
-                            <h3 class="nombre-jucopo">Dip. Miriam Silva Mata<br>‍</h3>
+                            <h3 class="nombre-jucopo">Dip. Miriam Silva Mata<br></h3>
                             <div class="texto-centrado">Vicepresidencia</div>
                         </div>
                     </div>
                     <div class="miembro-card-jucopo"><img loading="lazy" src="{{ asset('assets/organo/images/PT-Sofia-Martinez-Molina--01.png') }}" alt="" class="img-jucopo bg-pt">
                         <div class="cuerpo-info-jucopo">
-                            <h3 class="nombre-jucopo">Dip. Sofía Martínez Molina<br>‍</h3>
+                            <h3 class="nombre-jucopo">Dip. Sofía Martínez Molina<br></h3>
                             <div class="text-block-24">Secretaría</div>
                         </div>
                     </div>
@@ -204,7 +204,7 @@
                              src="{{ asset('assets/organo/images/MORENA-Edmundo-Luis-Valdena-Bastida.png') }}" loading="lazy" class="img-jucopo bg-morena">
                         <div class="cuerpo-info-jucopo">
                             <h3 class="nombre-jucopo">Edmundo Luis Valdeña Bastida</h3>
-                            <div class="text-block-24">Integrande</div>
+                            <div class="text-block-24">Integrante</div>
                         </div>
                     </div>
                     <div class="miembro-card-jucopo">
@@ -259,8 +259,8 @@
         </div>
         <div class="div-section">
             <h2 class="titulo-h2">COMISIONES Y COMITÉS</h2>
-            <p class="paragraph">El Congreso analiza asuntos en distintas materias, ya que las, les y los diputados reciben, proponen, debaten y aprueban leyes, reformas y acuerdos en todos los ámbitos de la vida pública. Para abordar cada punto de manera particular, las personas legisladoras están distribuidas en comisiones y comités.
-                <br><br>Cada comisión cuenta con por lo menos nueve personas diputadas; una puede participar en distintas comisiones y varias comisiones pueden analizar un asunto o iniciativa. Las comisiones se dividen en legislativas, especiales y jurisdiccionales.
+            <p class="paragraph">El Congreso analiza asuntos en distintas materias, ya que las, le y los diputados reciben, proponen, debaten y aprueban leyes, reformas y acuerdos en todos los ámbitos de la vida pública. Para abordar cada punto de manera particular, las personas legisladoras están distribuidas en comisiones y comités.
+                <br><br>Cada comisión cuenta por lo menos con nueve personas diputadas; una puede participar en distintas comisiones y varias comisiones pueden analizar un asunto o iniciativa. Las comisiones se dividen en legislativas, especiales y jurisdiccionales.
                 <br><br>Las más comunes son las legislativas, cuya función es estudiar las iniciativas o asuntos que les sean turnados de acuerdo con su ámbito de competencia. Las especiales son similares a las legislativas, pero son transitorias y deben rendir un informe al término de su encomienda, mientras que las jurisdiccionales son para desahogar un procedimiento de juicio político. Los comités permanentes son los de Administración, Estudios Legislativos, Comunicación Social, Vigilancia de la Contraloría, Editorial y Biblioteca.</p>
             <div>
                 <div class="w-row">
@@ -358,7 +358,7 @@
                              src="{{ asset('assets/organo/images/contraloria.png') }}" loading="lazy" class="imagen-dependencias">
                         <div class="div-block-33">
                             <h4 class="titulo-dorado">Contraloría del Poder Legislativo del Estado de México</h4>
-                            <div>Controlar y evaluar a las dependencias y organismos de la Legislatura, así com vigilar la actuación de las personas servidoras públicas de esta institución y los ayuntamientos.</div>
+                            <div>Controlar y evaluar a las dependencias y organismos de la Legislatura, así como vigilar la actuación de las personas servidoras públicas de esta institución y los ayuntamientos.</div>
                         </div>
                         <a href="https://www.contraloriadelpoderlegislativo.gob.mx/" target="_blank" class="btn-micrositio w-button">Micrositio</a>
                     </div>
@@ -372,7 +372,7 @@
                              src="{{ asset('assets/organo/images/SAF.png') }}" loading="lazy" class="imagen-dependencias">
                         <div class="div-block-33">
                             <h4 class="titulo-dorado">Secretaría de Administración y Finanzas</h4>
-                            <div>Planear, organizar, coordinar y controlar el desarrolo del personal y los recursos fiancieros y materiales del Congreso.</div>
+                            <div>Planear, organizar, coordinar y controlar el desarroloo del personal y los recursos financieros y materiales del Congreso.</div>
                         </div>
                         <a href="https://administracionyfinanzasplem.gob.mx/" target="_blank" class="btn-micrositio w-button">Micrositio</a>
                     </div>
@@ -386,7 +386,7 @@
                              src="{{ asset('assets/organo/images/DGCS.png') }}" loading="lazy" class="imagen-dependencias">
                         <div class="div-block-33">
                             <h4 class="titulo-dorado">Dirección General de Comunicación Social</h4>
-                            <div>Difundir lass actividades del Congreso mexiquense.</div>
+                            <div>Difundir las actividades del Congreso mexiquense.</div>
                         </div>
                         <a href="https://www.congresoedomex.gob.mx/boletin" target="_blank" class="btn-micrositio w-button">Micrositio</a>
                     </div>
