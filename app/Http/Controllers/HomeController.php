@@ -107,6 +107,10 @@ class HomeController extends Controller
         return view('pages.organo');
     }
 
+    public function leyesrostro(){
+        return view('pages.leyesrostro');
+    }
+
 
     public function getArticulos($anio, $trimestre)
     {
