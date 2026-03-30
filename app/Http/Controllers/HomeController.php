@@ -111,6 +111,10 @@ class HomeController extends Controller
         return view('pages.leyesrostro');
     }
 
+    public function leyextorsion(){
+        return view('pages.leyextorsion');
+    }
+
 
     public function getArticulos($anio, $trimestre)
     {
@@ -147,6 +151,8 @@ class HomeController extends Controller
             2026 => [
                 1 => [
                     [ "titulo" => "Congreso del Estado de México, tu Congreso de resultados", "img" => "congreso/images/congresoPortada.jpeg", "ruta" => "/tu-congreso-de-resultados" ],
+                    [ "titulo" => "Leyes con Rostro de Mujer", "img" => "leyesr/images/Cover.jpg", "ruta" => "/dialogo-resumen-informativo-8m" ],
+                    [ "titulo" => "¿Sabías que el Edomex tiene una Ley para combatir la extorsión?", "img" => "leyextorsion/images/principal.jpg", "ruta" => "/ley-para-combatir-la-extorsion" ],
                 ],
             ],
         ];
