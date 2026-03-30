@@ -26,14 +26,14 @@
         <h1 class="heading-3">Lo más reciente</h1>
         <div class="w-layout-blockcontainer container-2 w-container"></div>
         <p class="paragraph-2">
-            Leyes con Rostro de Mujer
+            ¿Sabías que el Edomex tiene una Ley para combatir la extorsión?
         </p>
-        <p class="paragraph-3">18 de Marzo 2026</p>
+        <p class="paragraph-3">30 de Marzo 2026</p>
         <p class="subtitulo-alfe-ique">
-            En el Estado de México legislar por la seguridad de las mujeres dejó de ser una promesa para convertirse en prioridad. Las, le y los diputados de la LXII Legislatura del  Congreso mexiquense han impulsado reformas para atender, proteger y fortalecer el desarrollo,
-            derechos y oportunidades de las niñas, adolescentes y mujeres mexiquenses.
+            La LXII Legislatura aprobó expedir la Ley para Prevenir, Atender y Combatir los Delitos en materia de Extorsión y Delitos Vinculados del Estado de México que regula de manera integral la prevención, atención,
+            investigación y persecución del delito de extorsión, fortaleciendo la coordinación entre autoridades.
         </p>
-        <a href="/dialogo-resumen-informativo-8m" class="button w-button">Leer artículo</a>
+        <a href="/ley-para-combatir-la-extorsion" class="button w-button">Leer artículo</a>
     </div>
     <div class="w-layout-blockcontainer container-3 w-container">
         <div id="w-node-_0da84a1c-8983-00ee-95bc-36e639afa07e-e0255d00" class="w-layout-layout quick-stack wf-layout-layout">
