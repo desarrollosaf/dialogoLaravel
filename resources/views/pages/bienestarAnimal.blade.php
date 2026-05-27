@@ -22,7 +22,7 @@
     </div>
     <div>
             <p class="texto-subtitulo-v2">La LXII Legislatura del Congreso del Estado México aprobó -en abril de 2026- la ahora Ley para el Control, Protección y Bienestar Animal del Estado de México y Municipios, normatividad que se considera a nivel nacional como vanguardista, humana, moderna y comprometida en materia de protección animal.</p>
-        
+
         <div class="div-block-5">
             <img src="{{asset('assets/bienestarAnimal/images/Collage.png')}}" loading="lazy" sizes="100vw"
                  srcset="{{asset('assets/bienestarAnimal/images/Collage-p-500.png')}} 500w,

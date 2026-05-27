@@ -38,19 +38,19 @@
     <div class="w-layout-blockcontainer container-3 w-container">
         <div id="w-node-_0da84a1c-8983-00ee-95bc-36e639afa07e-e0255d00" class="w-layout-layout quick-stack wf-layout-layout">
 
-            <div class="w-layout-cell cell-3"><img src="{{asset("assets/blogparlamento/images/parlamentos-1154-2025.jpeg")}}" loading="lazy" width="451" alt="" class="image">
-                <h1 class="heading-6">Blog del parlamento</h1>
-                <a href="/blog_del_parlamento" class="button w-button">Leer artículo</a>
+            <div class="w-layout-cell cell-3"><img src="{{asset("assets/leyextorsion/images/principal.jpg")}}" loading="lazy" width="451" alt="" class="image">
+                <h1 class="heading-6">¿Sabías que el Edomex tiene una Ley para combatir la extorsión?</h1>
+                <a href="/ley-para-combatir-la-extorsion" class="button w-button">Leer artículo</a>
             </div>
 
-            <div class="w-layout-cell cell-2"><img src="https://cdn.prod.website-files.com/68d32cae5b7816fce0255ced/68d6d169fb9d7ca4ace1caff_billete-1-ok-1.png" loading="lazy" width="451" alt="" class="image">
-                <h1 class="heading-5">El rock ya tiene su día en el calendario mexiquense</h1>
-                <a href="/rock_mexiquense" class="button w-button">Leer artículo</a>
+            <div class="w-layout-cell cell-2"><img src="{{asset("assets/leyesr/images/Cover.jpg")}}" loading="lazy" width="451" alt="" class="image">
+                <h1 class="heading-5">Leyes con Rostro de Mujer</h1>
+                <a href="/dialogo-resumen-informativo-8m" class="button w-button">Leer artículo</a>
             </div>
 
-            <div class="w-layout-cell cell"><img src="{{asset("assets/plastico/img/imagen-entrada-1.png")}}" loading="lazy" width="451" alt="" class="image">
-                <h1 class="heading-4">Dicen adiós a bolsas de plástico en Edomex</h1>
-                <a href="/plastico_edomex" class="button w-button">Leer artículo</a>
+            <div class="w-layout-cell cell"><img src="{{asset("assets/congreso/images/congresoPortada.jpeg")}}" loading="lazy" width="451" alt="" class="image">
+                <h1 class="heading-4">Congreso del Estado de México, tu Congreso de resultados</h1>
+                <a href="/tu-congreso-de-resultados" class="button w-button">Leer artículo</a>
             </div>
         </div>
     </div>
