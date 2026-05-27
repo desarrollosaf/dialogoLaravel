@@ -115,6 +115,10 @@ class HomeController extends Controller
         return view('pages.leyextorsion');
     }
 
+    public function bienestarAnimal(){
+        return view('pages.bienestarAnimal');
+    }
+
 
     public function getArticulos($anio, $trimestre)
     {
@@ -153,6 +157,9 @@ class HomeController extends Controller
                     [ "titulo" => "Congreso del Estado de México, tu Congreso de resultados", "img" => "congreso/images/congresoPortada.jpeg", "ruta" => "/tu-congreso-de-resultados" ],
                     [ "titulo" => "Leyes con Rostro de Mujer", "img" => "leyesr/images/Cover.jpg", "ruta" => "/dialogo-resumen-informativo-8m" ],
                     [ "titulo" => "¿Sabías que el Edomex tiene una Ley para combatir la extorsión?", "img" => "leyextorsion/images/principal.jpg", "ruta" => "/ley-para-combatir-la-extorsion" ],
+                ],
+                2 => [
+                    [ "titulo" => "¿Sabías que el Edomex tiene una Ley para combatir la extorsión?", "img" => "bienestarAnimal/images/Collage.png", "ruta" => "/bienestar-animal" ],
                 ],
             ],
         ];
