@@ -10,8 +10,8 @@
     <link href="{{asset('assets/bienestarAnimal/css/dialogo-bienestar-animal.webflow.css')}}" rel="stylesheet" type="text/css">
     <style>html.w-mod-js:not(.w-mod-ix3) :is([data-wf-target*='["6a14d9e4cd78ff96b5a5617a","e3908153-4f32-0eab-ed9d-1f2818f1b963"]'], [data-wf-target*='["6a14d9e4cd78ff96b5a5617a","5a1024c2-9e40-7f86-17c7-a34d3175342c"]'], [data-wf-target*='["6a14d9e4cd78ff96b5a5617a","24be3007-a044-6236-5dcb-abf324bf2410"]'], .img-250) {visibility: hidden !important;}</style>
     <script type="text/javascript">!function(o,c){var n=c.documentElement,t=" w-mod-";n.className+=t+"js",("ontouchstart"in o||o.DocumentTouch&&c instanceof DocumentTouch)&&(n.className+=t+"touch")}(window,document);</script>
-    <link href="{{asset('assets/bienestarAnimal/images/favicon.ico')}}images/favicon.ico" rel="shortcut icon" type="image/x-icon">
-    <link href="{{asset('assets/bienestarAnimal/images/webclip.png')}}images/webclip.png" rel="apple-touch-icon">
+    <link href="{{asset('assets/home/images/Favicon.png')}}" rel="shortcut icon" type="image/x-icon">
+    <link href="{{asset('assets/home/images/webclip.png')}}" rel="apple-touch-icon">
 </head>
 <body class="body">
 <header class="section-2"><img loading="lazy" src="{{asset('assets/bienestarAnimal/images/logo-dialogo-1.svg')}}" alt=""></header>
