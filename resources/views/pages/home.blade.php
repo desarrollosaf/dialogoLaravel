@@ -26,7 +26,7 @@
         <h1 class="heading-3">Lo más reciente</h1>
         <div class="w-layout-blockcontainer container-2 w-container"></div>
         <p class="paragraph-2">
-            ¿Sabías que el Edomex tiene una Ley para combatir la extorsión?
+            Más respeto y bienestar para los animales en el Estado de México
         </p>
         <p class="paragraph-3">27 de Mayo 2026</p>
         <p class="subtitulo-alfe-ique">

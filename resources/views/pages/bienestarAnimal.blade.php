@@ -17,13 +17,12 @@
 <header class="section-2"><img loading="lazy" src="{{asset('assets/bienestarAnimal/images/logo-dialogo-1.svg')}}" alt=""></header>
 <section>
     <div class="div-block">
-        <h1 class="ttitulo_blog">¿Sabías que el Edomex tiene una Ley para combatir la extorsión?</h1>
+        <h1 class="ttitulo_blog">Más respeto y bienestar para los animales en el Estado de México</h1>
         <p class="texto-subtitulo">El Estado de México dio un paso histórico al reconocer que todo ser sintiente merece vivir con respeto, cuidado y dignidad.</p>
     </div>
     <div>
-        <div class="primera-seccion">
             <p class="texto-subtitulo-v2">La LXII Legislatura del Congreso del Estado México aprobó -en abril de 2026- la ahora Ley para el Control, Protección y Bienestar Animal del Estado de México y Municipios, normatividad que se considera a nivel nacional como vanguardista, humana, moderna y comprometida en materia de protección animal.</p>
-        </div>
+        
         <div class="div-block-5">
             <img src="{{asset('assets/bienestarAnimal/images/Collage.png')}}" loading="lazy" sizes="100vw"
                  srcset="{{asset('assets/bienestarAnimal/images/Collage-p-500.png')}} 500w,
