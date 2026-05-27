@@ -34,6 +34,7 @@ Route::get('/tu-congreso-de-resultados', [\App\Http\Controllers\HomeController::
 Route::get('/grupos-organos-dependencias', [\App\Http\Controllers\HomeController::class, "organo"]);
 Route::get('/dialogo-resumen-informativo-8m', [\App\Http\Controllers\HomeController::class, "leyesrostro"]);
 Route::get('/ley-para-combatir-la-extorsion', [\App\Http\Controllers\HomeController::class, "leyextorsion"]);
+Route::get('/bienestar-animal', [\App\Http\Controllers\HomeController::class, "bienestarAnimal"]);
 
 
 Route::get('/articulos/{anio}/{trimestre}', [\App\Http\Controllers\HomeController::class, 'getArticulos']);
