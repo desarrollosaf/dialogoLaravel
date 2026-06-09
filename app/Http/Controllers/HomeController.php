@@ -119,6 +119,10 @@ class HomeController extends Controller
         return view('pages.bienestarAnimal');
     }
 
+    public function fiscalizacion(){
+        return view('pages.fiscalizacion');
+    }
+
 
     public function getArticulos($anio, $trimestre)
     {
@@ -159,7 +163,8 @@ class HomeController extends Controller
                     [ "titulo" => "¿Sabías que el Edomex tiene una Ley para combatir la extorsión?", "img" => "leyextorsion/images/principal.jpg", "ruta" => "/ley-para-combatir-la-extorsion" ],
                 ],
                 2 => [
-                    [ "titulo" => "¿Sabías que el Edomex tiene una Ley para combatir la extorsión?", "img" => "bienestarAnimal/images/Collage.png", "ruta" => "/bienestar-animal" ],
+                    [ "titulo" => "Más respeto y bienestar para los animales en el Estado de México", "img" => "bienestarAnimal/images/Collage.png", "ruta" => "/bienestar-animal" ],
+                    [ "titulo" => "LA FISCALIZACIÓN ¿QUÉ ES Y CÓMO FUNCIONA?", "img" => "fiscalizacion/images/Recurso-1.png", "ruta" => "/la-fiscalizacion" ],
                 ],
             ],
         ];
