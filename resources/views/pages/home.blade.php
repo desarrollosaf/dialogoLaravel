@@ -26,17 +26,20 @@
         <h1 class="heading-3">Lo más reciente</h1>
         <div class="w-layout-blockcontainer container-2 w-container"></div>
         <p class="paragraph-2">
-            Más respeto y bienestar para los animales en el Estado de México
+            LA FISCALIZACIÓN ¿QUÉ ES Y CÓMO FUNCIONA?
         </p>
-        <p class="paragraph-3">27 de Mayo 2026</p>
+        <p class="paragraph-3">09 de Junio 2026</p>
         <p class="subtitulo-alfe-ique">
-           La LXII Legislatura del Congreso del Estado México aprobó -en abril de 2026- la ahora Ley para el Control, Protección y Bienestar Animal del Estado de
-           México y Municipios, normatividad que se considera a nivel nacional como vanguardista, humana, moderna y comprometida en materia de protección animal.
+            Una de las funciones del Congreso mexiquense es ﬁscalizar, lo cual signiﬁca veriﬁcar que el uso de los recursos públicos se apegue a los principios de legalidad, eﬁciencia y economía.
         </p>
-        <a href="/bienestar-animal" class="button w-button">Leer artículo</a>
+        <a href="/la-fiscalizacion" class="button w-button">Leer artículo</a>
     </div>
     <div class="w-layout-blockcontainer container-3 w-container">
         <div id="w-node-_0da84a1c-8983-00ee-95bc-36e639afa07e-e0255d00" class="w-layout-layout quick-stack wf-layout-layout">
+            <div class="w-layout-cell cell-3"><img src="{{asset('assets/bienestarAnimal/images/Collage.png')}}" loading="lazy" width="451" alt="" class="image">
+                <h1 class="heading-6">Más respeto y bienestar para los animales en el Estado de México</h1>
+                <a href="/bienestar-animal" class="button w-button">Leer artículo</a>
+            </div>
 
             <div class="w-layout-cell cell-3"><img src="{{asset("assets/leyextorsion/images/principal.jpg")}}" loading="lazy" width="451" alt="" class="image">
                 <h1 class="heading-6">¿Sabías que el Edomex tiene una Ley para combatir la extorsión?</h1>
@@ -44,13 +47,8 @@
             </div>
 
             <div class="w-layout-cell cell-2"><img src="{{asset("assets/leyesr/images/Cover.jpg")}}" loading="lazy" width="451" alt="" class="image">
-                <h1 class="heading-5">Leyes con Rostro de Mujer</h1>
+                <h1 class="heading-5">Leyes con Rostro de Mujer</h1><br><br>
                 <a href="/dialogo-resumen-informativo-8m" class="button w-button">Leer artículo</a>
-            </div>
-
-            <div class="w-layout-cell cell"><img src="{{asset("assets/congreso/images/congresoPortada.jpeg")}}" loading="lazy" width="451" alt="" class="image">
-                <h1 class="heading-4">Congreso del Estado de México, tu Congreso de resultados</h1>
-                <a href="/tu-congreso-de-resultados" class="button w-button">Leer artículo</a>
             </div>
         </div>
     </div>
