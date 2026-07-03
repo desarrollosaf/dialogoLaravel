@@ -123,6 +123,10 @@ class HomeController extends Controller
         return view('pages.fiscalizacion');
     }
 
+    public function gobierno(){
+        return view('pages.gobierno');
+    }
+
 
     public function getArticulos($anio, $trimestre)
     {
@@ -166,6 +170,9 @@ class HomeController extends Controller
                     [ "titulo" => "Más respeto y bienestar para los animales en el Estado de México", "img" => "bienestarAnimal/images/Collage.png", "ruta" => "/bienestar-animal" ],
                     [ "titulo" => "LA FISCALIZACIÓN ¿QUÉ ES Y CÓMO FUNCIONA?", "img" => "fiscalizacion/images/Recurso-1.png", "ruta" => "/la-fiscalizacion" ],
                 ],
+                3 => [
+                    [ "titulo" => "Protege y preserva la LXII Legislatura del Estado de México patrimonio cultural mexiquense", "img" => "gobierno/images/Mapa.webp", "ruta" => "/gobierno-del-estado-protege-y-preserva" ],
+                ]
             ],
         ];
 
