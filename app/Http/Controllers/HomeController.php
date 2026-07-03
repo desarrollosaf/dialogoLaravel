@@ -171,7 +171,7 @@ class HomeController extends Controller
                     [ "titulo" => "LA FISCALIZACIÓN ¿QUÉ ES Y CÓMO FUNCIONA?", "img" => "fiscalizacion/images/Recurso-1.png", "ruta" => "/la-fiscalizacion" ],
                 ],
                 3 => [
-                    [ "titulo" => "Protege y preserva la LXII Legislatura del Estado de México patrimonio cultural mexiquense", "img" => "gobierno/images/Mapa.webp", "ruta" => "/gobierno-del-estado-protege-y-preserva" ],
+                    [ "titulo" => "Protege y preserva la LXII Legislatura del Estado de México patrimonio cultural mexiquense", "img" => "gobierno/images/portada.png", "ruta" => "/gobierno-del-estado-protege-y-preserva" ],
                 ]
             ],
         ];
