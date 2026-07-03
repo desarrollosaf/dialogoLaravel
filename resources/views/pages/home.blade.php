@@ -26,16 +26,21 @@
         <h1 class="heading-3">Lo más reciente</h1>
         <div class="w-layout-blockcontainer container-2 w-container"></div>
         <p class="paragraph-2">
-            LA FISCALIZACIÓN ¿QUÉ ES Y CÓMO FUNCIONA?
+            Los sabores, las artesanías y tradiciones representativas del Estado de México, y cuyo legado han pasado de generación en generación, son protegidas y preservadas por los, le y las diputadas que integran la LXII Legislatura en el Congreso local a través de declarar como Patrimonio Cultural a las más representativas para que estas se mantengan a través del tiempo.
         </p>
-        <p class="paragraph-3">09 de Junio 2026</p>
+        <p class="paragraph-3">03 de Julio 2026</p>
         <p class="subtitulo-alfe-ique">
             Una de las funciones del Congreso mexiquense es ﬁscalizar, lo cual signiﬁca veriﬁcar que el uso de los recursos públicos se apegue a los principios de legalidad, eﬁciencia y economía.
         </p>
-        <a href="/la-fiscalizacion" class="button w-button">Leer artículo</a>
+        <a href="/gobierno-del-estado-protege-y-preserva" class="button w-button">Leer artículo</a>
     </div>
     <div class="w-layout-blockcontainer container-3 w-container">
         <div id="w-node-_0da84a1c-8983-00ee-95bc-36e639afa07e-e0255d00" class="w-layout-layout quick-stack wf-layout-layout">
+            <div class="w-layout-cell cell-3"><img src="{{asset('assets/fiscalizacion/images/Recurso-1.png')}}" loading="lazy" width="451" alt="" class="image">
+                <h1 class="heading-6">LA FISCALIZACIÓN ¿QUÉ ES Y CÓMO FUNCIONA?</h1>
+                <a href="/la-fiscalizacion" class="button w-button">Leer artículo</a>
+            </div>
+
             <div class="w-layout-cell cell-3"><img src="{{asset('assets/bienestarAnimal/images/Collage.png')}}" loading="lazy" width="451" alt="" class="image">
                 <h1 class="heading-6">Más respeto y bienestar para los animales en el Estado de México</h1>
                 <a href="/bienestar-animal" class="button w-button">Leer artículo</a>
@@ -44,11 +49,6 @@
             <div class="w-layout-cell cell-3"><img src="{{asset("assets/leyextorsion/images/principal.jpg")}}" loading="lazy" width="451" alt="" class="image">
                 <h1 class="heading-6">¿Sabías que el Edomex tiene una Ley para combatir la extorsión?</h1>
                 <a href="/ley-para-combatir-la-extorsion" class="button w-button">Leer artículo</a>
-            </div>
-
-            <div class="w-layout-cell cell-2"><img src="{{asset("assets/leyesr/images/Cover.jpg")}}" loading="lazy" width="451" alt="" class="image">
-                <h1 class="heading-5">Leyes con Rostro de Mujer</h1><br><br>
-                <a href="/dialogo-resumen-informativo-8m" class="button w-button">Leer artículo</a>
             </div>
         </div>
     </div>
