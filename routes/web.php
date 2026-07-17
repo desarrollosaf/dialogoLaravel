@@ -37,6 +37,7 @@ Route::get('/ley-para-combatir-la-extorsion', [\App\Http\Controllers\HomeControl
 Route::get('/bienestar-animal', [\App\Http\Controllers\HomeController::class, "bienestarAnimal"]);
 Route::get('/la-fiscalizacion', [\App\Http\Controllers\HomeController::class, "fiscalizacion"]);
 Route::get('/gobierno-del-estado-protege-y-preserva', [\App\Http\Controllers\HomeController::class, "gobierno"]);
+Route::get('/congreso-mexiquense-trabaja-por-tu-salud', [\App\Http\Controllers\HomeController::class, "salud"]);
 
 
 Route::get('/articulos/{anio}/{trimestre}', [\App\Http\Controllers\HomeController::class, 'getArticulos']);

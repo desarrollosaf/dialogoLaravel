@@ -127,6 +127,10 @@ class HomeController extends Controller
         return view('pages.gobierno');
     }
 
+    public function salud(){
+        return view('pages.salud');
+    }
+
 
     public function getArticulos($anio, $trimestre)
     {
@@ -172,6 +176,7 @@ class HomeController extends Controller
                 ],
                 3 => [
                     [ "titulo" => "Protege y preserva la LXII Legislatura del Estado de México patrimonio cultural mexiquense", "img" => "gobierno/images/portada.png", "ruta" => "/gobierno-del-estado-protege-y-preserva" ],
+                    [ "titulo" => "Congreso mexiquense trabaja por tu salud y bienestar", "img" => "salud/images/Doctores.png", "ruta" => "/congreso-mexiquense-trabaja-por-tu-salud" ],
                 ]
             ],
         ];
