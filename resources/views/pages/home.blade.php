@@ -26,16 +26,22 @@
         <h1 class="heading-3">Lo más reciente</h1>
         <div class="w-layout-blockcontainer container-2 w-container"></div>
         <p class="paragraph-2">
-            Los sabores, las artesanías y tradiciones representativas del Estado de México, y cuyo legado han pasado de generación en generación, son protegidas y preservadas por los, le y las diputadas que integran la LXII Legislatura en el Congreso local a través de declarar como Patrimonio Cultural a las más representativas para que estas se mantengan a través del tiempo.
+            Congreso mexiquense trabaja por tu salud y bienestar
         </p>
-        <p class="paragraph-3">03 de Julio 2026</p>
+        <p class="paragraph-3">17 de Julio 2026</p>
         <p class="subtitulo-alfe-ique">
-            Una de las funciones del Congreso mexiquense es ﬁscalizar, lo cual signiﬁca veriﬁcar que el uso de los recursos públicos se apegue a los principios de legalidad, eﬁciencia y economía.
+            Con la aprobación de una nueva Ley de Salud, la donación de inmuebles y predios para el fortalecimiento de la atención médica en 40 de los 125 municipios, así como reformas para facilitar la aplicación de estudios de salud preventivos entre personas servidoras públicas, el Congreso del Estado de México ha provisto de mejores condiciones para el bienestar físico, mental y social de las y los mexiquenses.
         </p>
-        <a href="/gobierno-del-estado-protege-y-preserva" class="button w-button">Leer artículo</a>
+        <a href="/congreso-mexiquense-trabaja-por-tu-salud" class="button w-button">Leer artículo</a>
     </div>
     <div class="w-layout-blockcontainer container-3 w-container">
         <div id="w-node-_0da84a1c-8983-00ee-95bc-36e639afa07e-e0255d00" class="w-layout-layout quick-stack wf-layout-layout">
+
+            <div class="w-layout-cell cell-3"><img src="{{asset('assets/gobierno/images/portada.png')}}" loading="lazy" width="451" alt="" class="image">
+                <h1 class="heading-6">Protege y preserva la LXII Legislatura del Estado de México patrimonio cultural mexiquense</h1>
+                <a href="/gobierno-del-estado-protege-y-preserva" class="button w-button">Leer artículo</a>
+            </div>
+
             <div class="w-layout-cell cell-3"><img src="{{asset('assets/fiscalizacion/images/Recurso-1.png')}}" loading="lazy" width="451" alt="" class="image">
                 <h1 class="heading-6">LA FISCALIZACIÓN ¿QUÉ ES Y CÓMO FUNCIONA?</h1>
                 <a href="/la-fiscalizacion" class="button w-button">Leer artículo</a>
@@ -44,11 +50,6 @@
             <div class="w-layout-cell cell-3"><img src="{{asset('assets/bienestarAnimal/images/Collage.png')}}" loading="lazy" width="451" alt="" class="image">
                 <h1 class="heading-6">Más respeto y bienestar para los animales en el Estado de México</h1>
                 <a href="/bienestar-animal" class="button w-button">Leer artículo</a>
-            </div>
-
-            <div class="w-layout-cell cell-3"><img src="{{asset("assets/leyextorsion/images/principal.jpg")}}" loading="lazy" width="451" alt="" class="image">
-                <h1 class="heading-6">¿Sabías que el Edomex tiene una Ley para combatir la extorsión?</h1>
-                <a href="/ley-para-combatir-la-extorsion" class="button w-button">Leer artículo</a>
             </div>
         </div>
     </div>
