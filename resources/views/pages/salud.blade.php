@@ -170,7 +170,7 @@
                 <div class="columns w-row">
                     <div class="column w-col w-col-6"><img src="{{asset('assets/salud/images/dcotr.png')}}" loading="lazy" alt="" class="image-6"></div>
                     <div class="w-col w-col-6">
-                        <p class="texto-grande">También en materia de salud, la LXII Legislatura mexiquense aprobó reformas a la Ley del Trabajo de los Servidores Públicos del Estado y Municipios para que las personas servidoras públicas cuenten con un día de permiso anual con goce íntegro de salario para realizarse estudios médicos preventivos.</p>
+                        <p class="texto-general">También en materia de salud, la LXII Legislatura mexiquense aprobó reformas a la Ley del Trabajo de los Servidores Públicos del Estado y Municipios para que las personas servidoras públicas cuenten con un día de permiso anual con goce íntegro de salario para realizarse estudios médicos preventivos.</p>
                     </div>
                 </div>
             </div>
@@ -186,7 +186,7 @@
             <div>
                 <div class="columns w-row">
                     <div class="column w-col w-col-6">
-                        <p class="texto-grande">Por otro lado, para fortalecer los servicios de salud estatal y garantizar atención médica continua —incluyendo detección y tratamiento— y libre de discriminación para personas con enfermedades de transmisión sexual y con virus de la inmunodeﬁciencia humana (VIH), el Congreso mexiquense aprobó reformas al Código Administrativo; la Ley de Educación, Cultura, Ciencia y Tecnología; y la Ley para Prevenir, Combatir y Eliminar Actos de Discriminación, todas del ámbito estatal.</p>
+                        <p class="texto-general">Por otro lado, para fortalecer los servicios de salud estatal y garantizar atención médica continua —incluyendo detección y tratamiento— y libre de discriminación para personas con enfermedades de transmisión sexual y con virus de la inmunodeﬁciencia humana (VIH), el Congreso mexiquense aprobó reformas al Código Administrativo; la Ley de Educación, Cultura, Ciencia y Tecnología; y la Ley para Prevenir, Combatir y Eliminar Actos de Discriminación, todas del ámbito estatal.</p>
                     </div>
                     <div class="column-2 w-col w-col-6"><img src="{{asset('assets/salud/images/Liston_.png')}}" loading="lazy" alt="" class="image-6"></div>
                 </div>
