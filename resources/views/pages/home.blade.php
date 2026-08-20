@@ -6,10 +6,10 @@
 
     <meta property="og:title" content="Dialogo">
     <meta property="og:description" content="Conoce nuestro sitio web de Dialogo">
-    <meta property="og:image" content="{{ asset('assets/celulares/images/img-1.png') }}">
+    <meta property="og:image" content="{{ asset("assets/celulares/images/img-1.png") }}">
     <meta property="og:url" content="{{ url()->current() }}">
     <meta property="og:type" content="website">
-    
+
     <meta content="width=device-width, initial-scale=1" name="viewport">
     <meta content="Webflow" name="generator">
     <link href="{{asset("assets/home/css/normalize.css")}}" rel="stylesheet" type="text/css">
