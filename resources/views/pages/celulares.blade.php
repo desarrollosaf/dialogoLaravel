@@ -32,13 +32,15 @@
              {{asset('assets/celulares/images/img-1.png 1441w')}}" alt="" class="image-5">
     </div>
     <div class="autores">
-        <div>Por: <strong>David Guillermo Garduño García</strong></div>
+        <div>Por: <strong>Sandra Garcia</strong></div>
         <div>Ilustración: <strong>Erwin Ritschl Galeazzi</strong></div>
     </div>
 </section>
 <section>
     <div class="texto_section">
-        <p class="texto_general">Las tecnologías digitales han transformado la vida cotidiana de la humanidad. Su uso ofrece beneficios en un sinfín de tareas y actividades laborales, escolares, culturales, deportivas, científicas, financieras, entre otras. <br><br>En el caso del rubro educativo cuando su uso es inadecuado, excesivo o sin regulación, representan un riesgo especialmente para niñas, niños y adolescentes, quienes al utilizar las tecnologías en dichas circunstancias pueden experimentar desde falta de atención y concentración, desinterés en sus estudios, hasta exposición a contenidos inapropiados o colocarse en una situación de riesgo al tener la posibilidad de entablar comunicación con desconocidos.<br><br>UNICEF (2025) ha advertido que la violencia en línea contra la niñez y adolescencia constituye una violación de derechos humanos que debe atenderse de manera prioritaria.<br><br>El Instituto Federal de Telecomunicaciones (IFT), en su Encuesta Nacional de Consumo de Contenidos Audiovisuales (2023), identificó al teléfono celular como el dispositivo más utilizado por niñas y niños para acceder a internet en un 78%; seguido de Smart TV, en un 36%.</p>
+        <p class="texto_general">Las tecnologías digitales han transformado la vida cotidiana de la humanidad. Su uso ofrece beneficios en un sinfín de tareas y actividades laborales, escolares, culturales, deportivas, científicas, financieras, entre otras. <br><br>En el caso del rubro educativo cuando su uso es inadecuado, excesivo o sin regulación, representan un riesgo especialmente para niñas, niños y adolescentes, quienes al utilizar las tecnologías en dichas circunstancias pueden experimentar desde falta de atención y concentración, desinterés en sus estudios, hasta exposición a contenidos inapropiados o colocarse en una situación de riesgo al tener la posibilidad de entablar comunicación con desconocidos.<br><br>
+            El Instituto Federal de Telecomunicaciones (IFT), en su Encuesta Nacional de Consumo de Contenidos Audiovisuales (2023), identificó al teléfono celular como el dispositivo más utilizado por niñas y niños para acceder a internet en un 78%; seguido de Smart TV, en un 36%.<br><br>
+        UNICEF (2025) ha advertido que la violencia en línea contra la niñez y adolescencia constituye una violación de derechos humanos que debe atenderse de manera prioritaria.</p>
     </div>
     <div class="secction_background_flat">
         <div class="columns w-row">
