@@ -5,6 +5,14 @@
     <title>Dialogo | Bienestar Animal</title>
     <meta content="width=device-width, initial-scale=1" name="viewport">
     <meta content="Webflow" name="generator">
+
+    <meta property="og:title" content="Dialogo | Bienestar Animal">
+    <meta property="og:image" content="{{ asset("assets/bienestarAnimal/images/Collage.png") }}">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:url" content="{{ url()->current() }}">
+    <meta property="og:type" content="website">
+
     <link href="{{asset('assets/bienestarAnimal/css/normalize.css')}}" rel="stylesheet" type="text/css">
     <link href="{{asset('assets/bienestarAnimal/css/webflow.css')}}" rel="stylesheet" type="text/css">
     <link href="{{asset('assets/bienestarAnimal/css/dialogo-bienestar-animal.webflow.css')}}" rel="stylesheet" type="text/css">

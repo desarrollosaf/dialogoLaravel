@@ -3,6 +3,15 @@
 <head>
     <meta charset="utf-8">
     <title>Dialogo | Blog celulares</title>
+
+    <meta property="og:title" content="Dialogo | Blog celulares">
+    <meta property="og:image" content="{{ asset("assets/celulares/images/img-1.png") }}">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:url" content="{{ url()->current() }}">
+    <meta property="og:type" content="website">
+
+
     <meta content="width=device-width, initial-scale=1" name="viewport">
     <meta content="Webflow" name="generator">
     <link href="{{asset('assets/celulares/css/normalize.css')}}" rel="stylesheet" type="text/css">

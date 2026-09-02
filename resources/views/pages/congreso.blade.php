@@ -7,6 +7,15 @@
     <meta content="Tu Congreso de resultados" property="twitter:title">
     <meta content="width=device-width, initial-scale=1" name="viewport">
     <meta content="Webflow" name="generator">
+
+    <meta property="og:title" content="Dialogo | Tu Congreso de resultados">
+    <meta property="og:image" content="{{ asset("assets/congreso/images/Palacio-luces-de-tamano-mediano.png") }}">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:url" content="{{ url()->current() }}">
+    <meta property="og:type" content="website">
+
+
     <link href="{{asset('assets/congreso/css/normalize.css')}}" rel="stylesheet" type="text/css">
     <link href="{{asset('assets/congreso/css/webflow.css')}}" rel="stylesheet" type="text/css">
     <link href="{{asset('assets/congreso/css/dialogo-entradas.webflow.css')}}" rel="stylesheet" type="text/css">

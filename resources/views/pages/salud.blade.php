@@ -5,6 +5,15 @@
     <title>Congreso mexiquense trabaja por tu salud y bienestar | Congreso del Estado de México</title>
     <meta content="width=device-width, initial-scale=1" name="viewport">
     <meta content="Webflow" name="generator">
+
+    <meta property="og:title" content="Dialogo | Congreso mexiquense trabaja por tu salud y bienestar">
+    <meta property="og:image" content="{{ asset("assets/salud/images/Doctores.png") }}">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:url" content="{{ url()->current() }}">
+    <meta property="og:type" content="website">
+
+
     <link href="{{asset('assets/salud/css/normalize.css')}}" rel="stylesheet" type="text/css">
     <link href="{{asset('assets/salud/css/webflow.css')}}" rel="stylesheet" type="text/css">
     <link href="{{asset('assets/salud/css/congreso-mexiquense-trabaja-por-tu-salu.webflow.css')}}" rel="stylesheet" type="text/css">

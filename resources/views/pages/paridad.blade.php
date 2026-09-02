@@ -3,6 +3,14 @@
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta charset="utf-8" />
+
+    <meta property="og:title" content="Dialogo | Legislatura histórica de la paridad y la inclusión">
+    <meta property="og:image" content="{{asset('assets/paridad/img/billete-1-ok-1.png')}}">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:url" content="{{ url()->current() }}">
+    <meta property="og:type" content="website">
+
     <link  href="{{asset("assets/home/images/Favicon.png")}}" rel="shortcut icon" type="image/x-icon">
     <link rel="stylesheet" href="{{asset('assets/paridad/globals.css')}}" />
     <link rel="stylesheet" href="{{asset('assets/paridad/style.css')}}" />

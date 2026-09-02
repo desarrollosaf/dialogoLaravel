@@ -12,6 +12,15 @@
     <meta content="summary_large_image" name="twitter:card">
     <meta content="width=device-width, initial-scale=1" name="viewport">
     <meta content="Webflow" name="generator">
+
+    <meta property="og:title" content="Dialogo | El Alfeñique Patrimonio Cultural">
+    <meta property="og:image" content="{{asset('assets/alfenique/images/Calavera-en-tribuna.png')}}">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:url" content="{{ url()->current() }}">
+    <meta property="og:type" content="website">
+
+
     <link href="{{asset('assets/alfenique/css/normalize.css')}}" rel="stylesheet" type="text/css">
     <link href="{{asset('assets/alfenique/css/webflow.css')}}" rel="stylesheet" type="text/css">
     <link href="{{asset('assets/alfenique/css/dialogo-entradas.webflow.css')}}" rel="stylesheet" type="text/css">

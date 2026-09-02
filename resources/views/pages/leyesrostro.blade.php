@@ -5,6 +5,14 @@
     <title>Dialogo RESUMEN INFORMATIVO 8M</title>
     <meta content="width=device-width, initial-scale=1" name="viewport">
     <meta content="Webflow" name="generator">
+
+    <meta property="og:title" content="Dialogo | RESUMEN INFORMATIVO 8M">
+    <meta property="og:image" content="{{ asset("assets/leyesr/images/Grupo-de-mujeres.png") }}">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:url" content="{{ url()->current() }}">
+    <meta property="og:type" content="website">
+
     <link href="{{asset('assets/leyesr/css/normalize.css')}}" rel="stylesheet" type="text/css">
     <link href="{{asset('assets/leyesr/css/webflow.css')}}" rel="stylesheet" type="text/css">
     <link href="{{asset('assets/leyesr/css/dialogo-resumen-informativo-8m.webflow.css')}}" rel="stylesheet" type="text/css">

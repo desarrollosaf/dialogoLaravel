@@ -22,6 +22,14 @@
     <meta content="summary_large_image" name="twitter:card">
     <meta content="width=device-width, initial-scale=1" name="viewport">
     <meta content="Webflow" name="generator">
+
+    <meta property="og:title" content="Dialogo | Declaran a piñatas de Acolman como Patrimonio Cultural">
+    <meta property="og:image" content="{{asset('assets/pinatas/images/Ilustracion-Pinatas.jpeg')}}">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:url" content="{{ url()->current() }}">
+    <meta property="og:type" content="website">
+
     <link rel="stylesheet" href="{{asset('assets/pinatas/css/normalize.css')}}" type="text/css"/>
     <link rel="stylesheet" href="{{asset('assets/pinatas/css/webflow.css')}}" type="text/css"/>
     <link rel="stylesheet" href="{{asset('assets/pinatas/css/dialogo-entradas.webflow.css')}}" type="text/css"/>

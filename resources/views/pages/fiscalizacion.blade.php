@@ -5,6 +5,15 @@
     <title>DIALOGO | La Fiscalización</title>
     <meta content="width=device-width, initial-scale=1" name="viewport">
     <meta content="Webflow" name="generator">
+
+    <meta property="og:title" content="Dialogo | La Fiscalización">
+    <meta property="og:image" content="{{ asset("assets/fiscalizacion/images/Recurso-1.png") }}">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:url" content="{{ url()->current() }}">
+    <meta property="og:type" content="website">
+
+
     <link href="{{asset('assets/fiscalizacion/css/normalize.css')}}" rel="stylesheet" type="text/css">
     <link href="{{asset('assets/fiscalizacion/css/webflow.css')}}" rel="stylesheet" type="text/css">
     <link href="{{asset('assets/fiscalizacion/css/dialogo-la-fiscalizacion.webflow.css')}}" rel="stylesheet" type="text/css">

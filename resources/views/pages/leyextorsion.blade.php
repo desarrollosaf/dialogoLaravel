@@ -5,6 +5,14 @@
     <title>Ley para combatir la extorsión</title>
     <meta content="width=device-width, initial-scale=1" name="viewport">
     <meta content="Webflow" name="generator">
+
+    <meta property="og:title" content="Dialogo | Ley para combatir la extorsión">
+    <meta property="og:image" content="{{ asset("assets/leyextorsion/images/Hace-llamada.png") }}">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:url" content="{{ url()->current() }}">
+    <meta property="og:type" content="website">
+
     <link href="{{asset('assets/leyextorsion/css/normalize.css')}}" rel="stylesheet" type="text/css">
     <link href="{{asset('assets/leyextorsion/css/webflow.css')}}" rel="stylesheet" type="text/css">
     <link href="{{asset('assets/leyextorsion/css/ley-para-combatir-la-extorsion.webflow.css')}}" rel="stylesheet" type="text/css">
