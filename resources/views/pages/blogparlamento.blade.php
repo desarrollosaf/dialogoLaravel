@@ -7,6 +7,14 @@
     <meta content="Blog del Parlamento" property="twitter:title">
     <meta content="width=device-width, initial-scale=1" name="viewport">
     <meta content="Webflow" name="generator">
+
+    <meta property="og:title" content="Dialogo | Blog del Parlamento">
+    <meta property="og:image" content="{{asset('assets/blogparlamento/images/parlamentos-1154-2025.jpeg')}}">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:url" content="{{ url()->current() }}">
+    <meta property="og:type" content="website">
+
 {{--    <link href="{{asset('assets/blogparlamento/css/normalize.css')}}" rel="stylesheet" type="text/css">--}}
 {{--    <link href="{{asset('assets/blogparlamento/css/webflow.css')}}" rel="stylesheet" type="text/css">--}}
     <link href="{{asset('assets/blogparlamento/css/dialogo-entradas.webflow.css')}}" rel="stylesheet" type="text/css">

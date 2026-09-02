@@ -5,6 +5,15 @@
     <title>Dialogo | Protege y Preserva la Legislatura del Estado de México</title>
     <meta content="width=device-width, initial-scale=1" name="viewport">
     <meta content="Webflow" name="generator">
+
+    <meta property="og:title" content="Dialogo | Protege y Preserva la Legislatura del Estado de México">
+    <meta property="og:image" content="{{ asset("assets/gobierno/images/Mapa.webp") }}">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:url" content="{{ url()->current() }}">
+    <meta property="og:type" content="website">
+
+
     <link href="{{asset('assets/gobierno/css/normalize.css')}}" rel="stylesheet" type="text/css">
     <link href="{{asset('assets/gobierno/css/webflow.css')}}" rel="stylesheet" type="text/css">
     <link href="{{asset('assets/gobierno/css/gobierno-del-estado-protege-y-preserva.webflow.css')}}" rel="stylesheet" type="text/css">

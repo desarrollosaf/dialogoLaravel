@@ -3,6 +3,14 @@
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta charset="utf-8" />
+
+    <meta property="og:title" content="Dialogo | Reforma Judicial">
+    <meta property="og:image" content="https://c.animaapp.com/gsJY2lm3/img/billete-1-ok-1.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:url" content="{{ url()->current() }}">
+    <meta property="og:type" content="website">
+
     <link  href="{{asset("assets/home/images/Favicon.png")}}" rel="shortcut icon" type="image/x-icon">
     <link rel="stylesheet" href="{{asset('assets/reforma/globals.css')}}" />
     <link rel="stylesheet" href="{{asset('assets/reforma/style.css')}}" />

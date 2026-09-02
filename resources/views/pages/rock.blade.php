@@ -5,6 +5,15 @@
     <title>Rock mexiquense</title>
     <meta content="width=device-width, initial-scale=1" name="viewport">
     <meta content="Webflow" name="generator">
+
+    <meta property="og:title" content="Dialogo | Rock mexiquense">
+    <meta property="og:image" content="https://cdn.prod.website-files.com/68d32cae5b7816fce0255ced/68d6d169fb9d7ca4ace1caff_billete-1-ok-1.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:url" content="{{ url()->current() }}">
+    <meta property="og:type" content="website">
+
+
 {{--    <link href="{{asset("assets/rock/css/normalize.css")}}" rel="stylesheet" type="text/css">--}}
 {{--    <link href="{{asset("assets/rock/css/webflow.css")}}" rel="stylesheet" type="text/css">--}}
     <link href="{{asset("assets/rock/css/dialogo-entradas.webflow.css")}}" rel="stylesheet" type="text/css">
