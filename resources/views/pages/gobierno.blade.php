@@ -2,7 +2,7 @@
 <html data-wf-page="6a43e57968ac9809c5d0a8bb" data-wf-site="6a43e57868ac9809c5d0a87f">
 <head>
     <meta charset="utf-8">
-    <title>GOBIERNO DEL ESTADO | Protege y Preserva la Legislatura del Estado de México</title>
+    <title>Dialogo | Protege y Preserva la Legislatura del Estado de México</title>
     <meta content="width=device-width, initial-scale=1" name="viewport">
     <meta content="Webflow" name="generator">
     <link href="{{asset('assets/gobierno/css/normalize.css')}}" rel="stylesheet" type="text/css">
