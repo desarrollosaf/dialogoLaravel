@@ -186,13 +186,13 @@
 }
 
 .container-2 {
-  background-image: url('/assets/celulares/images/img-1.png');
+  background-image: url('/assets/leyesHumano/Cover.png');
   background-position: 0;
   background-size: cover;
   border-radius: 20px;
   width: 100%;
   max-width: 100%;
-  height: 350px;
+  height: 500px;
   max-height: 500px;
 }
 .container-3 {

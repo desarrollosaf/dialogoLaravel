@@ -39,8 +39,10 @@ class HomeController extends Controller
             2026 => [
                 1 => [
                     [ "titulo" => "Congreso del Estado de México, tu Congreso de resultados", "img" => "congreso/images/congresoPortada.jpeg", "ruta" => "/congreso" ],
-
                 ],
+                3 => [
+                    [ "titulo" => "Leyes con enfoque humano, sello de la LXII Legislatura", "img" => "leyesHumano/Cover.png", "ruta" => "/leyes_con_enfoque_humano" ],
+                ]
             ]
         ];
         return view("pages.home", compact('anioSeleccionado', 'trimestreSeleccionado', 'articulos'));
@@ -135,6 +137,11 @@ class HomeController extends Controller
         return view('pages.celulares');
     }
 
+    public function leyesHumano(){
+        return view('pages.leyeshumano');
+    }
+
+
 
 
     public function getArticulos($anio, $trimestre)
@@ -183,6 +190,10 @@ class HomeController extends Controller
                     [ "titulo" => "Protege y preserva la LXII Legislatura del Estado de México patrimonio cultural mexiquense", "img" => "gobierno/images/portada.png", "ruta" => "/gobierno-del-estado-protege-y-preserva" ],
                     [ "titulo" => "Congreso mexiquense trabaja por tu salud y bienestar", "img" => "salud/images/Doctores.png", "ruta" => "/congreso-mexiquense-trabaja-por-tu-salud" ],
                     [ "titulo" => "Regula Congreso mexiquense uso de celulares en escuelas", "img" => "celulares/images/img-1.png", "ruta" => "/celulares" ],
+                ],
+                4 => [
+                    [ "titulo" => "Leyes con enfoque humano, sello de la LXII Legislatura", "img" => "leyesHumano/Cover.png", "ruta" => "/leyes_con_enfoque_humano" ],
+
                 ]
             ],
         ];
