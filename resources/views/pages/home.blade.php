@@ -35,19 +35,13 @@
         <h1 class="heading-3">Lo más reciente</h1>
         <div class="w-layout-blockcontainer container-2 w-container"></div>
         <p class="paragraph-2">
-            Regula Congreso mexiquense uso de celulares en escuelas
+            Leyes con enfoque humano, sello de la LXII Legislatura
         </p>
-        <p class="paragraph-3">14 de Agosto 2026</p>
+        <p class="paragraph-3">24 de Septiembre 2026</p>
         <p class="subtitulo-alfe-ique">
-            La LXII Legislatura del Congreso del Estado de México aprobó
-            una reforma de vanguardia nacional al regular -en niñas,
-            niños y adolescentes- el uso de celulares y otros dispositivos
-            electrónicos en instituciones educativas de nivel básico en
-            territorio mexiquense, limitándolo a fines académicos o
-            emergencias personales y previa autorización de la persona
-            responsable del aula o directiva durante los horarios de clase.
+            En su segundo año de ejercicio constitucional, la LXII Legislatura del Estado de México logró la aprobación de nuevas leyes, reformas y acuerdos desde una perspectiva de justicia social, lo cual ha permitido atender deudas con sectores históricamente marginados y dotar de condiciones a las instituciones para que cumplan sus responsabilidades en función del bienestar colectivo.
         </p>
-        <a href="/celulares" class="button w-button">Leer artículo</a>
+        <a href="/leyes_con_enfoque_humano" class="button w-button">Leer artículo</a>
     </div>
     <div class="w-layout-blockcontainer container-3 w-container">
         <div id="w-node-_0da84a1c-8983-00ee-95bc-36e639afa07e-e0255d00" class="w-layout-layout quick-stack wf-layout-layout">
