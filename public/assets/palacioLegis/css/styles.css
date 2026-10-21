@@ -1,0 +1,48 @@
+@font-face{font-family:'Regesto Grotesk';src:url(../assets/fonts/RegestoGrotesk-Regular.ttf) format('truetype');font-weight:400;font-style:normal;font-display:swap}
+@font-face{font-family:'Regesto Grotesk';src:url(../assets/fonts/RegestoGrotesk-Medium.ttf) format('truetype');font-weight:500;font-style:normal;font-display:swap}
+@font-face{font-family:'Regesto Grotesk';src:url(../assets/fonts/RegestoGrotesk-Bold.ttf) format('truetype');font-weight:700;font-style:normal;font-display:swap}
+body{margin:0;background:#edb0ad;overflow-x:hidden}
+.pg{--u:min(calc(100vw / 1440), 1px);max-width:1440px;margin:0 auto;display:flow-root;background:#edb0ad url(../assets/9e059174200da84912307adb074f342d.jpg);background-size:416px 416px;font-family:'Regesto Grotesk',sans-serif;color:#000}
+.pg *{box-sizing:border-box}
+.pg img{display:block}
+.in{padding:0 calc(110*var(--u))}
+.t{margin:0 0 calc(39.5*var(--u));font-weight:600;font-size:21px;line-height:1.2;text-align:justify;hyphens:manual}
+.t:last-child{margin-bottom:0}
+.h1{margin:0;font-family:'Regesto Grotesk',sans-serif;font-weight:700;font-size:calc(72*var(--u));line-height:calc(86.5*var(--u));color:#83584b;text-align:center}
+.bar,.bleed{width:100vw;margin-left:calc(50% - 50vw);margin-right:calc(50% - 50vw)}
+.bar{background:#83584b;padding:calc(37*var(--u)) calc(40*var(--u))}
+.bar h2{margin:0;font-family:'Regesto Grotesk',sans-serif;font-weight:700;font-size:calc(72*var(--u));line-height:calc(87*var(--u));color:#fff;text-align:center}
+.h2{margin:calc(66*var(--u)) 0 calc(30*var(--u));font-family:'Regesto Grotesk',sans-serif;font-weight:700;font-size:calc(55*var(--u));line-height:calc(66*var(--u));color:#83584b;text-align:center}
+.h3{margin:calc(48*var(--u)) 0 calc(28*var(--u));font-family:'Regesto Grotesk',sans-serif;font-weight:700;font-size:calc(45*var(--u));line-height:calc(54*var(--u));color:#83584b;text-align:center}
+.row{display:flex;flex-wrap:wrap;gap:calc(30*var(--u));align-items:center}
+.row .tx{flex:1 1 calc(470*var(--u));min-width:0}
+.row .im{flex:none}
+.full{width:100%;height:auto}
+.hid{display:flow-root}
+.hid .col{margin-bottom:calc(39.5*var(--u))}
+.hid .stat{float:right;width:calc(353.5*var(--u));margin:calc(-15*var(--u)) calc(-33.5*var(--u)) 0 calc(20*var(--u));shape-outside:url(../assets/fe329709bc4c9afbc3c535e39c073765.png);shape-image-threshold:.4;shape-margin:calc(24*var(--u))}
+.fx-ready .pg img{opacity:0;transform:translateY(calc(30*var(--u)));transition:opacity .9s ease-out,transform .9s ease-out}
+.fx-ready .pg img[data-in]{opacity:1;transform:none}
+@media (prefers-reduced-motion:reduce){.fx-ready .pg img{opacity:1;transform:none;transition:none}}
+.share{display:flex;align-items:center;justify-content:center;gap:24px;padding:calc(56*var(--u)) calc(40*var(--u))}
+.share__title{margin:0;font-weight:700;font-size:24px;line-height:1.2;color:#83584b}
+.share__links{display:flex;gap:16px}
+.share__btn{display:flex;align-items:center;justify-content:center;width:44px;height:44px;border-radius:50%;background:#83584b;color:#fff;transition:background .2s,transform .2s}
+.share__btn:hover{background:#5f3e35;transform:translateY(-2px)}
+.share__btn svg{width:20px;height:20px;fill:currentColor}
+.site-header{position:sticky;top:0;z-index:100;height:74px;background:#000000;display:flex;align-items:center;justify-content:center}
+.site-header img{display:block;width:139px;height:auto}
+.site-footer{height:132px;background:#ffffff}
+.site-footer__in{height:100%;padding:0 40px;display:flex;align-items:center;box-sizing:border-box}
+.site-footer img{display:block;width:250px;height:auto;max-width:100%}
+@media (max-width:900px){
+  .site-footer__in{padding:0 20px}
+  .share{flex-direction:column;gap:16px}
+  .row + .row{margin-top:calc(39.5*var(--u)) !important}
+  .pg{--u:calc(100vw / 900)}
+  .in{padding:0 calc(50*var(--u))}
+  .dbr{display:none}
+  .row .im{width:100% !important;max-width:calc(560*var(--u));margin:0 auto !important}
+  .hid .stat{float:none;shape-outside:none;display:block;width:calc(250*var(--u));margin:0 auto calc(30*var(--u))}
+  .intro{padding:0 calc(50*var(--u)) !important}
+}

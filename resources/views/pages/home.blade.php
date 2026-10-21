@@ -35,16 +35,22 @@
         <h1 class="heading-3">Lo más reciente</h1>
         <div class="w-layout-blockcontainer container-2 w-container"></div>
         <p class="paragraph-2">
-            Leyes con enfoque humano, sello de la LXII Legislatura
+            Palacio Legislativo del Estado de México patrimonio parlamentario, histórico e institucional mexiquense
         </p>
-        <p class="paragraph-3">24 de Septiembre 2026</p>
+        <p class="paragraph-3">21 de Octubre 2026</p>
         <p class="subtitulo-alfe-ique">
-            En su segundo año de ejercicio constitucional, la LXII Legislatura del Estado de México logró la aprobación de nuevas leyes, reformas y acuerdos desde una perspectiva de justicia social, lo cual ha permitido atender deudas con sectores históricamente marginados y dotar de condiciones a las instituciones para que cumplan sus responsabilidades en función del bienestar colectivo.
-        </p>
-        <a href="/leyes_con_enfoque_humano" class="button w-button">Leer artículo</a>
+            El Congreso mexiquense celebró un paso significativo para la consolidación de su patrimonio institucional pues el edificio del Palacio del Poder Legislativo ya es oficialmente una sede parlamentaria tras su desincorporación de la propiedad del gobierno estatal.        </p>
+        <a href="/palacio_legislativo_del_estado_de_mexico" class="button w-button">Leer artículo</a>
     </div>
     <div class="w-layout-blockcontainer container-3 w-container">
         <div id="w-node-_0da84a1c-8983-00ee-95bc-36e639afa07e-e0255d00" class="w-layout-layout quick-stack wf-layout-layout">
+
+
+
+            <div class="w-layout-cell cell-3"><img src="{{asset('assets/leyesHumano/Cover.png')}}" loading="lazy" width="451" alt="" class="image">
+                <h1 class="heading-6">Leyes con enfoque humano, sello de la LXII Legislatura</h1>
+                <a href="/leyes_con_enfoque_humano" class="button w-button">Leer artículo</a>
+            </div>
 
             <div class="w-layout-cell cell-3"><img src="{{asset('assets/salud/images/portada_doctores.jpg')}}" loading="lazy" width="451" alt="" class="image">
                 <h1 class="heading-6">Congreso mexiquense trabaja por tu salud y bienestar</h1>
@@ -56,10 +62,10 @@
                 <a href="/gobierno-del-estado-protege-y-preserva" class="button w-button">Leer artículo</a>
             </div>
 
-            <div class="w-layout-cell cell-3"><img src="{{asset('assets/fiscalizacion/images/Recurso-1.png')}}" loading="lazy" width="451" alt="" class="image">
-                <h1 class="heading-6">LA FISCALIZACIÓN ¿QUÉ ES Y CÓMO FUNCIONA?</h1>
-                <a href="/la-fiscalizacion" class="button w-button">Leer artículo</a>
-            </div>
+{{--            <div class="w-layout-cell cell-3"><img src="{{asset('assets/fiscalizacion/images/Recurso-1.png')}}" loading="lazy" width="451" alt="" class="image">--}}
+{{--                <h1 class="heading-6">LA FISCALIZACIÓN ¿QUÉ ES Y CÓMO FUNCIONA?</h1>--}}
+{{--                <a href="/la-fiscalizacion" class="button w-button">Leer artículo</a>--}}
+{{--            </div>--}}
         </div>
     </div>
 </section>
