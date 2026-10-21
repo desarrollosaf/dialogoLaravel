@@ -141,6 +141,10 @@ class HomeController extends Controller
         return view('pages.leyeshumano');
     }
 
+    public function palacioLegis(){
+        return view('pages.palacioLegis');
+    }
+
 
 
 
@@ -193,6 +197,7 @@ class HomeController extends Controller
                 ],
                 4 => [
                     [ "titulo" => "Leyes con enfoque humano, sello de la LXII Legislatura", "img" => "leyesHumano/Cover.png", "ruta" => "/leyes_con_enfoque_humano" ],
+                    [ "titulo" => "Palacio Legislativo del Estado de México patrimonio parlamentario, histórico e institucional mexiquense", "img" => "palacioLegis/assets/palacio_home.png", "ruta" => "/palacio_legislativo_del_estado_de_mexico" ],
 
                 ]
             ],
