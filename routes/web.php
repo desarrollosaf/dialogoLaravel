@@ -41,6 +41,7 @@ Route::get('/congreso-mexiquense-trabaja-por-tu-salud', [\App\Http\Controllers\H
 Route::get('/celulares', [\App\Http\Controllers\HomeController::class, "celulares"]);
 Route::get('/leyes_con_enfoque_humano', [\App\Http\Controllers\HomeController::class, "leyesHumano"]);
 Route::get('/palacio_legislativo_del_estado_de_mexico', [\App\Http\Controllers\HomeController::class, "palacioLegis"]);
+Route::get('/violencia_acida', [\App\Http\Controllers\HomeController::class, "violenciaAcida"]);
 
 Route::get('/articulos/{anio}/{trimestre}', [\App\Http\Controllers\HomeController::class, 'getArticulos']);
 Route::post('/guardar-correo', [\App\Http\Controllers\HomeController::class, 'guardarCorreo'])->name('guardar.correo');
