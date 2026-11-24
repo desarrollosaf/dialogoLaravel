@@ -46,7 +46,10 @@
     <div class="w-layout-blockcontainer container-3 w-container">
         <div id="w-node-_0da84a1c-8983-00ee-95bc-36e639afa07e-e0255d00" class="w-layout-layout quick-stack wf-layout-layout">
 
-
+            <div class="w-layout-cell cell-3"><img src="{{asset('assets/lpalacioLegis/assets/palacio_home.png')}}" loading="lazy" width="451" alt="" class="image">
+                <h1 class="heading-6">Palacio Legislativo del Estado de México patrimonio parlamentario, histórico e institucional mexiquense</h1>
+                <a href="/palacio_legislativo_del_estado_de_mexico" class="button w-button">Leer artículo</a>
+            </div>
 
             <div class="w-layout-cell cell-3"><img src="{{asset('assets/leyesHumano/Cover.png')}}" loading="lazy" width="451" alt="" class="image">
                 <h1 class="heading-6">Leyes con enfoque humano, sello de la LXII Legislatura</h1>
@@ -57,16 +60,6 @@
                 <h1 class="heading-6">Congreso mexiquense trabaja por tu salud y bienestar</h1>
                 <a href="/congreso-mexiquense-trabaja-por-tu-salud" class="button w-button">Leer artículo</a>
             </div>
-
-            <div class="w-layout-cell cell-3"><img src="{{asset('assets/gobierno/images/portada.png')}}" loading="lazy" width="451" alt="" class="image">
-                <h1 class="heading-6">Protege y preserva la LXII Legislatura del Estado de México patrimonio cultural mexiquense</h1>
-                <a href="/gobierno-del-estado-protege-y-preserva" class="button w-button">Leer artículo</a>
-            </div>
-
-{{--            <div class="w-layout-cell cell-3"><img src="{{asset('assets/fiscalizacion/images/Recurso-1.png')}}" loading="lazy" width="451" alt="" class="image">--}}
-{{--                <h1 class="heading-6">LA FISCALIZACIÓN ¿QUÉ ES Y CÓMO FUNCIONA?</h1>--}}
-{{--                <a href="/la-fiscalizacion" class="button w-button">Leer artículo</a>--}}
-{{--            </div>--}}
         </div>
     </div>
 </section>
