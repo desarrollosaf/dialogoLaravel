@@ -41,7 +41,7 @@
         <p class="subtitulo-alfe-ique">
            ¿Qué grado de malevolencia debe tener una persona para intentar borrar la identidad de otra con ácido o sustancias químicas?
         </p>
-        <a href="/violencia" class="button w-button">Leer artículo</a>
+        <a href="/violencia_acida" class="button w-button">Leer artículo</a>
     </div>
     <div class="w-layout-blockcontainer container-3 w-container">
         <div id="w-node-_0da84a1c-8983-00ee-95bc-36e639afa07e-e0255d00" class="w-layout-layout quick-stack wf-layout-layout">
