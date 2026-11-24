@@ -42,6 +42,9 @@ class HomeController extends Controller
                 ],
                 3 => [
                     [ "titulo" => "Leyes con enfoque humano, sello de la LXII Legislatura", "img" => "leyesHumano/Cover.png", "ruta" => "/leyes_con_enfoque_humano" ],
+                    [ "titulo" => "Palacio Legislativo del Estado de México patrimonio parlamentario, histórico e institucional mexiquense", "img" => "palacioLegis/assets/palacio_poder_legislativo.svg", "ruta" => "/palacio_legislativo_del_estado_de_mexico" ],
+                    [ "titulo" => "Violencia ácida contra mujeres: heridas que marcan vidas, justicia que no debe esperar", "img" => "violencia/img/hero-ataque.webp", "ruta" => "/violencia" ],
+
                 ]
             ]
         ];
@@ -145,6 +148,10 @@ class HomeController extends Controller
         return view('pages.palacioLegis');
     }
 
+    public function violenciaAcida(){
+        return view('pages.violencia');
+    }
+
 
 
 
@@ -198,7 +205,7 @@ class HomeController extends Controller
                 4 => [
                     [ "titulo" => "Leyes con enfoque humano, sello de la LXII Legislatura", "img" => "leyesHumano/Cover.png", "ruta" => "/leyes_con_enfoque_humano" ],
                     [ "titulo" => "Palacio Legislativo del Estado de México patrimonio parlamentario, histórico e institucional mexiquense", "img" => "palacioLegis/assets/palacio_home.png", "ruta" => "/palacio_legislativo_del_estado_de_mexico" ],
-
+                    [ "titulo" => "Violencia ácida contra mujeres: heridas que marcan vidas, justicia que no debe esperar", "img" => "violencia/img/hero-ataque.webp", "ruta" => "/violencia" ],
                 ]
             ],
         ];

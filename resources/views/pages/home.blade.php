@@ -35,12 +35,13 @@
         <h1 class="heading-3">Lo más reciente</h1>
         <div class="w-layout-blockcontainer container-2 w-container"></div>
         <p class="paragraph-2">
-            Palacio Legislativo del Estado de México patrimonio parlamentario, histórico e institucional mexiquense
+            Violencia ácida contra mujeres: heridas que marcan vidas, justicia que no debe esperar
         </p>
-        <p class="paragraph-3">21 de Octubre 2026</p>
+        <p class="paragraph-3">24 de Noviembre 2026</p>
         <p class="subtitulo-alfe-ique">
-            El Congreso mexiquense celebró un paso significativo para la consolidación de su patrimonio institucional pues el edificio del Palacio del Poder Legislativo ya es oficialmente una sede parlamentaria tras su desincorporación de la propiedad del gobierno estatal.        </p>
-        <a href="/palacio_legislativo_del_estado_de_mexico" class="button w-button">Leer artículo</a>
+           ¿Qué grado de malevolencia debe tener una persona para intentar borrar la identidad de otra con ácido o sustancias químicas?
+        </p>
+        <a href="/violencia" class="button w-button">Leer artículo</a>
     </div>
     <div class="w-layout-blockcontainer container-3 w-container">
         <div id="w-node-_0da84a1c-8983-00ee-95bc-36e639afa07e-e0255d00" class="w-layout-layout quick-stack wf-layout-layout">
