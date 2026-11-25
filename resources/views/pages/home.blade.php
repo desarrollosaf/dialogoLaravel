@@ -46,7 +46,8 @@
     <div class="w-layout-blockcontainer container-3 w-container">
         <div id="w-node-_0da84a1c-8983-00ee-95bc-36e639afa07e-e0255d00" class="w-layout-layout quick-stack wf-layout-layout">
 
-            <div class="w-layout-cell cell-3"><img src="{{asset('assets/lpalacioLegis/assets/palacio_home.png')}}" loading="lazy" width="451" alt="" class="image">
+        
+            <div class="w-layout-cell cell-3"><img src="{{asset('assets/palacioLegis/assets/palacio_home.png')}}" loading="lazy" width="451" alt="" class="image">
                 <h1 class="heading-6">Palacio Legislativo del Estado de México patrimonio parlamentario, histórico e institucional mexiquense</h1>
                 <a href="/palacio_legislativo_del_estado_de_mexico" class="button w-button">Leer artículo</a>
             </div>
